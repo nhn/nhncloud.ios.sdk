@@ -1,0 +1,6 @@
+framework module NHNCloudLogger {
+  umbrella header "NHNCloudLogger.h"
+
+  export *
+  module * { export * }
+}

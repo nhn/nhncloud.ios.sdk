@@ -1,0 +1,56 @@
+#!/bin/bash
+
+#Easy Script
+
+if [ ! -d ${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME} ]; then
+    echo "Couldn't find dsym file: ${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}"
+    exit 1
+fi
+
+while [[ $# -gt 0 ]]
+do
+key="$1"
+
+case $key in
+    -ak|--app-key)
+    APP_KEY="$2"
+    shift
+    shift
+    ;;
+    -sz|--service-zone)
+    SERVICE_ZONE="$2"
+    shift
+    shift
+    ;;
+    *)
+esac
+done
+
+if [ -z ${APP_KEY} ] ; then
+    echo "Please input appkey."
+    exit 1
+fi
+if [ ${APP_KEY} == "LOG_N_CRASH_SEARCH_APPKEY" ] ; then
+    echo "Please input appkey."
+    exit 1
+fi
+echo "APPKEY = ${APP_KEY}"
+
+if [ -z ${SERVICE_ZONE} ] ; then
+    SERVICE_ZONE="real"
+fi
+echo "SERVICEZONE = ${SERVICE_ZONE}"
+
+if [ -z ${MARKETING_VERSION} ] ; then
+    echo "Set marketing version in Xcode project."
+    exit 1
+fi
+echo "VERSION = ${MARKETING_VERSION}"
+
+COMMAND_PATH="${PODS_ROOT}/NHNCloudSymbolUploader/nhncloud.ios.sdk-*/SymbolUploader "
+
+ARGUMENTS="--app-key ${APP_KEY} --project-version ${MARKETING_VERSION}  --service-zone ${SERVICE_ZONE} ${TARGET_BUILD_DIR}"
+
+eval $COMMAND_PATH$ARGUMENTS
+
+#${PODS_ROOT}/NHNCloudSymbolUploader/nhncloud.ios.sdk-*/run --app-key LOG_N_CRASH_SEARCH_APPKEY

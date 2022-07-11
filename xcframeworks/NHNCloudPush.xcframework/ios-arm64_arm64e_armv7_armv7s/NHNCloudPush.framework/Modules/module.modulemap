@@ -1,0 +1,12 @@
+framework module NHNCloudPush {
+    umbrella header "NHNCloudPush.h"
+    
+    export *
+    module * { export * }
+    
+    explicit module VoIP {
+        header "NHNCloudVoIP.h"
+        
+        export *
+    }
+}
