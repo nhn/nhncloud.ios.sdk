@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/NHNCloudIAP+SDK.h</key>
 		<data>
-		VK1Oq3RToybRDO00wDERpsMFCTw=
+		Y6skZ36QqbkkNYhMUy5i84b8Cy8=
 		</data>
 		<key>Headers/NHNCloudIAP.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VMdDoEY5Hi9ebFUc7FinFyudCuc=
+		AENy2wYtlUJgU8YYS3HiesNkzA8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VK1Oq3RToybRDO00wDERpsMFCTw=
+			Y6skZ36QqbkkNYhMUy5i84b8Cy8=
 			</data>
 			<key>hash2</key>
 			<data>
-			GVXRDJKlndAmU3QJlShfP1i0+9nqhRCJyXOtHJSOS+g=
+			V9W3pEJFyl7sVATakT+V5IIv5QLWDqCMlTGbEutGVR8=
 			</data>
 		</dict>
 		<key>Headers/NHNCloudIAP.h</key>

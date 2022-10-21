@@ -52,8 +52,24 @@ extern NSString *const NHNCloudDefaultDateFormat;
 
 + (NSData *)AES256EncryptedDataWithKey:(NSData *)key source:(NSData *)source iv:(NSData *)iv;
 + (NSData *)AES256DecryptedDataWithKey:(NSData *)key source:(NSData *)source iv:(NSData *)iv;
++ (uint8_t *)AES256DecryptedDataWithKeyForC:(NSData *)key source:(NSData *)source iv:(NSData *)iv;
 
 + (NSData *)AES256GenerateKey;
+
+// return base64 encoded string
++ (NSString *)RSAEncryptString:(NSString *)str publicKey:(NSString *)pubKey;
+// return raw data
++ (NSData *)RSAEncryptData:(NSData *)data publicKey:(NSString *)pubKey;
+// return base64 encoded string
++ (NSString *)RSAEncryptString:(NSString *)str privateKey:(NSString *)privKey;
+// return raw data
++ (NSData *)RSAEncryptData:(NSData *)data privateKey:(NSString *)privKey;
+
+// decrypt base64 encoded string, convert result to string(not base64 encoded)
++ (NSString *)RSADecryptString:(NSString *)str publicKey:(NSString *)pubKey;
++ (NSData *)RSADecryptData:(NSData *)data publicKey:(NSString *)pubKey;
++ (NSString *)RSADecryptString:(NSString *)str privateKey:(NSString *)privKey;
++ (NSData *)RSADecryptData:(NSData *)data privateKey:(NSString *)privKey;
 
 + (NSData *)zipCompress:(id)source;
 + (NSData *)zipDecompress:(NSData *)source;
@@ -155,3 +171,4 @@ extern NSString *const NHNCloudDefaultDateFormat;
 + (BOOL)isVersion:(NSString *)version lessThanOrEqualTo:(NSString *)targetVersion;
 
 @end
+

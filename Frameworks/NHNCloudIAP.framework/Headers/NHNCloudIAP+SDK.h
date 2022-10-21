@@ -79,14 +79,23 @@ NS_SWIFT_NAME(initialize(configuration:delegate:));
 + (void)requestProductsWithCompletionHandler:(nullable void (^)(NHNCloudProductsResponse * _Nullable response, NSError * _Nullable error))completionHandler
 NS_SWIFT_NAME(requestProducts(completion:));
 
-// 미소비 결제 내역 조회
+// 앱스토어 미소비 결제 내역 조회
 /**
- Gets the list of products that have not been paid out of the purchased consumable items.
+ Gets the list of products that have not been paid out of the purchased consumable items from the App Store.
 
  @param completionHandler The handler to execute after the list of products is complete
  */
 + (void)requestConsumablePurchasesWithCompletionHandler:(nullable void (^)(NSArray<NHNCloudPurchaseResult *> * _Nullable purchases, NSError * _Nullable error))completionHandler
 NS_SWIFT_NAME(requestConsumablePurchases(completion:));
+
+// 전체 마켓 미소비 결제 내역 조회
+/**
+ Gets the list of products that have not been paid out of the purchased consumable items from all markets (App Store, Google, ONEStore...)
+
+ @param completionHandler The handler to execute after the list of products is complete
+ */
++ (void)requestAllMarketsConsumablePurchasesWithCompletionHandler:(nullable void (^)(NSArray<NHNCloudPurchaseResult *> * _Nullable purchases, NSError * _Nullable error))completionHandler
+NS_SWIFT_NAME(requestAllMarketsConsumablePurchases(completion:));
 
 // 상품 구매
 /**
@@ -116,14 +125,32 @@ NS_SWIFT_NAME(purchase(product:payload:));
 + (void)restoreWithCompletionHandler:(nullable void (^)(NSArray<NHNCloudPurchaseResult *> * _Nullable restoredPurchases, NSError * _Nullable error))completionHandler
 NS_SWIFT_NAME(restore(completion:));
 
-// 활성화된 구매 목록 조회
+// 활성화된 구매 목록 조회 (Deprecated)
 /**
  Gets a list of valid subscription items based on UserID, regardless of iOS or Android Store.
 
  @param completionHandler The handler to execute after the list of products is complete
  */
 + (void)requestActivePurchasesWithCompletionHandler:(nullable void (^)(NSArray<NHNCloudPurchaseResult *> * _Nullable purchases, NSError * _Nullable error))completionHandler
-NS_SWIFT_NAME(requestActivePurchases(completion:));
+NS_SWIFT_NAME(requestActivePurchases(completion:)) __deprecated_msg("use requestAllMarketsActiveSubscriptionsWithCompletionHandler: instead.");
+
+// 활성화된 앱스토어 구매 목록 조회
+/**
+ Gets a list of valid subscription App Store items based on UserID
+
+ @param completionHandler The handler to execute after the list of products is complete
+ */
++ (void)requestActiveSubscriptionsWithCompletionHandler:(nullable void (^)(NSArray<NHNCloudPurchaseResult *> * _Nullable purchases, NSError * _Nullable error))completionHandler
+NS_SWIFT_NAME(requestActiveSubscriptions(completion:));
+
+// 활성화된 전체 마켓 구매 목록 조회
+/**
+ Gets a list of valid subscription items based on UserID, regardless of iOS or Android Store.
+
+ @param completionHandler The handler to execute after the list of products is complete
+ */
++ (void)requestAllMarketsActiveSubscriptionsWithCompletionHandler:(nullable void (^)(NSArray<NHNCloudPurchaseResult *> * _Nullable purchases, NSError * _Nullable error))completionHandler
+NS_SWIFT_NAME(requestAllMarketsActiveSubscriptions(completion:));
 
 // 상품 구매
 /**
