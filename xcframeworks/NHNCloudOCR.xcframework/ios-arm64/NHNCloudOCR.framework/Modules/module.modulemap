@@ -1,7 +1,0 @@
-framework module NHNCloudOCR {
-    umbrella header "NHNCloudOCR.h"
-    
-    export *
-    module * { export * }
-}
-
