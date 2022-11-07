@@ -1,0 +1,6 @@
+framework module NHNCloudCommon {
+  umbrella header "NHNCloudCommon.h"
+
+  export *
+  module * { export * }
+}

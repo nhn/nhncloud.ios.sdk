@@ -1,0 +1,6 @@
+framework module NHNCloudCore {
+  umbrella header "NHNCloudCore.h"
+
+  export *
+  module * { export * }
+}
