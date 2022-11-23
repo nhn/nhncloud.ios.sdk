@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NHNCloudOCR_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOK-w0-APq">
+                                <rect key="frame" x="16" y="47" width="358" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Uaz-w2-Xcv"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Default UI Sample"/>
+                                <connections>
+                                    <segue destination="VwL-bv-hdi" kind="show" id="pgZ-pP-4ss"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apa-uP-KCa">
+                                <rect key="frame" x="16" y="90" width="358" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Custom UI Sample"/>
+                                <connections>
+                                    <segue destination="atL-zh-7wU" kind="show" id="bfm-Qu-Xhh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xOK-w0-APq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5GA-GP-zDS"/>
+                            <constraint firstItem="xOK-w0-APq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5lF-3B-rK0"/>
+                            <constraint firstItem="apa-uP-KCa" firstAttribute="top" secondItem="xOK-w0-APq" secondAttribute="bottom" constant="8" id="9mq-6C-Pup"/>
+                            <constraint firstItem="apa-uP-KCa" firstAttribute="leading" secondItem="xOK-w0-APq" secondAttribute="leading" id="FrH-cV-0ei"/>
+                            <constraint firstItem="apa-uP-KCa" firstAttribute="trailing" secondItem="xOK-w0-APq" secondAttribute="trailing" id="IoV-lC-iO4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xOK-w0-APq" secondAttribute="trailing" constant="16" id="fAV-xN-xMd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-145" y="313"/>
+        </scene>
+        <!--DefaultOCR View Controller-->
+        <scene sceneID="DRK-aW-3nt">
+            <objects>
+                <viewController id="VwL-bv-hdi" customClass="DefaultOCRViewController" customModule="NHNCloudOCR_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="imM-Wt-mLN">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Byk-zF-Gqo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jUD-Kc-vNc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ubd-g5-vto" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="812" y="-2"/>
+        </scene>
+        <!--CustomOCR View Controller-->
+        <scene sceneID="Oib-d6-cGg">
+            <objects>
+                <viewController id="atL-zh-7wU" customClass="CustomOCRViewController" customModule="NHNCloudOCR_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nGJ-RC-blb">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Cc0-Kt-b0v"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qEx-Ib-lNN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uhz-cm-3Ix" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="811" y="641"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

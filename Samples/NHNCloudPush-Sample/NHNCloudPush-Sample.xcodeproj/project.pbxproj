@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D4B5A0E2925CD4A004F7AA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B5A0D2925CD4A004F7AA0 /* AppDelegate.swift */; };
+		2D4B5A102925CD4A004F7AA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B5A0F2925CD4A004F7AA0 /* SceneDelegate.swift */; };
+		2D4B5A122925CD4A004F7AA0 /* SampleMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B5A112925CD4A004F7AA0 /* SampleMainViewController.swift */; };
+		2D4B5A152925CD4A004F7AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B5A132925CD4A004F7AA0 /* Main.storyboard */; };
+		2D4B5A172925CD4C004F7AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B5A162925CD4C004F7AA0 /* Assets.xcassets */; };
+		2D4B5A1A2925CD4C004F7AA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B5A182925CD4C004F7AA0 /* LaunchScreen.storyboard */; };
+		2D4B5A282925CD9E004F7AA0 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B5A272925CD9E004F7AA0 /* NotificationService.swift */; };
+		2D4B5A2C2925CD9E004F7AA0 /* PushServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D4B5A252925CD9E004F7AA0 /* PushServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2D4B5A3C2925D30C004F7AA0 /* SampleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B5A3B2925D30C004F7AA0 /* SampleUtil.swift */; };
+		2D4B5A412925F50D004F7AA0 /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B5A402925F50D004F7AA0 /* TagViewController.swift */; };
+		2D8D1122292C951800A05FCB /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8D1121292C951800A05FCB /* UserNotifications.framework */; };
+		D9D94063292DB92F00435D62 /* NHNCloudCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D94060292DB92E00435D62 /* NHNCloudCommon.xcframework */; };
+		D9D94065292DB92F00435D62 /* NHNCloudCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D94061292DB92F00435D62 /* NHNCloudCore.xcframework */; };
+		D9D94067292DB92F00435D62 /* NHNCloudPush.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D94062292DB92F00435D62 /* NHNCloudPush.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D4B5A2A2925CD9E004F7AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4B5A022925CD4A004F7AA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4B5A242925CD9E004F7AA0;
+			remoteInfo = PushServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D4B5A2D2925CD9E004F7AA0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2D4B5A2C2925CD9E004F7AA0 /* PushServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2D4B5A0A2925CD4A004F7AA0 /* NHNCloudPush-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NHNCloudPush-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4B5A0D2925CD4A004F7AA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D4B5A0F2925CD4A004F7AA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D4B5A112925CD4A004F7AA0 /* SampleMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleMainViewController.swift; sourceTree = "<group>"; };
+		2D4B5A142925CD4A004F7AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D4B5A162925CD4C004F7AA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D4B5A192925CD4C004F7AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D4B5A1B2925CD4C004F7AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4B5A252925CD9E004F7AA0 /* PushServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PushServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4B5A272925CD9E004F7AA0 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		2D4B5A292925CD9E004F7AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4B5A3B2925D30C004F7AA0 /* SampleUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUtil.swift; sourceTree = "<group>"; };
+		2D4B5A3F2925F467004F7AA0 /* NHNCloudPush-SampleDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NHNCloudPush-SampleDebug.entitlements"; sourceTree = "<group>"; };
+		2D4B5A402925F50D004F7AA0 /* TagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
+		2D8D1121292C951800A05FCB /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		D9D94060292DB92E00435D62 /* NHNCloudCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCommon.xcframework; path = ../../xcframeworks/NHNCloudCommon.xcframework; sourceTree = "<group>"; };
+		D9D94061292DB92F00435D62 /* NHNCloudCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCore.xcframework; path = ../../xcframeworks/NHNCloudCore.xcframework; sourceTree = "<group>"; };
+		D9D94062292DB92F00435D62 /* NHNCloudPush.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudPush.xcframework; path = ../../xcframeworks/NHNCloudPush.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D4B5A072925CD4A004F7AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8D1122292C951800A05FCB /* UserNotifications.framework in Frameworks */,
+				D9D94063292DB92F00435D62 /* NHNCloudCommon.xcframework in Frameworks */,
+				D9D94067292DB92F00435D62 /* NHNCloudPush.xcframework in Frameworks */,
+				D9D94065292DB92F00435D62 /* NHNCloudCore.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4B5A222925CD9E004F7AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D4B5A012925CD49004F7AA0 = {
+			isa = PBXGroup;
+			children = (
+				2D4B5A0C2925CD4A004F7AA0 /* NHNCloudPush-Sample */,
+				2D4B5A262925CD9E004F7AA0 /* PushServiceExtension */,
+				2D4B5A0B2925CD4A004F7AA0 /* Products */,
+				2D8D1116292C94FB00A05FCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D4B5A0B2925CD4A004F7AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B5A0A2925CD4A004F7AA0 /* NHNCloudPush-Sample.app */,
+				2D4B5A252925CD9E004F7AA0 /* PushServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D4B5A0C2925CD4A004F7AA0 /* NHNCloudPush-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B5A3F2925F467004F7AA0 /* NHNCloudPush-SampleDebug.entitlements */,
+				2D4B5A0D2925CD4A004F7AA0 /* AppDelegate.swift */,
+				2D4B5A0F2925CD4A004F7AA0 /* SceneDelegate.swift */,
+				2D4B5A112925CD4A004F7AA0 /* SampleMainViewController.swift */,
+				2D4B5A402925F50D004F7AA0 /* TagViewController.swift */,
+				2D4B5A3B2925D30C004F7AA0 /* SampleUtil.swift */,
+				2D4B5A132925CD4A004F7AA0 /* Main.storyboard */,
+				2D4B5A162925CD4C004F7AA0 /* Assets.xcassets */,
+				2D4B5A182925CD4C004F7AA0 /* LaunchScreen.storyboard */,
+				2D4B5A1B2925CD4C004F7AA0 /* Info.plist */,
+			);
+			path = "NHNCloudPush-Sample";
+			sourceTree = "<group>";
+		};
+		2D4B5A262925CD9E004F7AA0 /* PushServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B5A272925CD9E004F7AA0 /* NotificationService.swift */,
+				2D4B5A292925CD9E004F7AA0 /* Info.plist */,
+			);
+			path = PushServiceExtension;
+			sourceTree = "<group>";
+		};
+		2D8D1116292C94FB00A05FCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9D94060292DB92E00435D62 /* NHNCloudCommon.xcframework */,
+				D9D94061292DB92F00435D62 /* NHNCloudCore.xcframework */,
+				D9D94062292DB92F00435D62 /* NHNCloudPush.xcframework */,
+				2D8D1121292C951800A05FCB /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D4B5A092925CD4A004F7AA0 /* NHNCloudPush-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4B5A1E2925CD4C004F7AA0 /* Build configuration list for PBXNativeTarget "NHNCloudPush-Sample" */;
+			buildPhases = (
+				2D4B5A062925CD4A004F7AA0 /* Sources */,
+				2D4B5A072925CD4A004F7AA0 /* Frameworks */,
+				2D4B5A082925CD4A004F7AA0 /* Resources */,
+				2D4B5A2D2925CD9E004F7AA0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D4B5A2B2925CD9E004F7AA0 /* PBXTargetDependency */,
+			);
+			name = "NHNCloudPush-Sample";
+			productName = "NHNCloudPush-Sample";
+			productReference = 2D4B5A0A2925CD4A004F7AA0 /* NHNCloudPush-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D4B5A242925CD9E004F7AA0 /* PushServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4B5A302925CD9E004F7AA0 /* Build configuration list for PBXNativeTarget "PushServiceExtension" */;
+			buildPhases = (
+				2D4B5A212925CD9E004F7AA0 /* Sources */,
+				2D4B5A222925CD9E004F7AA0 /* Frameworks */,
+				2D4B5A232925CD9E004F7AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushServiceExtension;
+			productName = PushServiceExtension;
+			productReference = 2D4B5A252925CD9E004F7AA0 /* PushServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D4B5A022925CD4A004F7AA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					2D4B5A092925CD4A004F7AA0 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					2D4B5A242925CD9E004F7AA0 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 2D4B5A052925CD4A004F7AA0 /* Build configuration list for PBXProject "NHNCloudPush-Sample" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D4B5A012925CD49004F7AA0;
+			productRefGroup = 2D4B5A0B2925CD4A004F7AA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D4B5A092925CD4A004F7AA0 /* NHNCloudPush-Sample */,
+				2D4B5A242925CD9E004F7AA0 /* PushServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D4B5A082925CD4A004F7AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4B5A1A2925CD4C004F7AA0 /* LaunchScreen.storyboard in Resources */,
+				2D4B5A172925CD4C004F7AA0 /* Assets.xcassets in Resources */,
+				2D4B5A152925CD4A004F7AA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4B5A232925CD9E004F7AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D4B5A062925CD4A004F7AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4B5A122925CD4A004F7AA0 /* SampleMainViewController.swift in Sources */,
+				2D4B5A0E2925CD4A004F7AA0 /* AppDelegate.swift in Sources */,
+				2D4B5A102925CD4A004F7AA0 /* SceneDelegate.swift in Sources */,
+				2D4B5A412925F50D004F7AA0 /* TagViewController.swift in Sources */,
+				2D4B5A3C2925D30C004F7AA0 /* SampleUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4B5A212925CD9E004F7AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4B5A282925CD9E004F7AA0 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D4B5A2B2925CD9E004F7AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4B5A242925CD9E004F7AA0 /* PushServiceExtension */;
+			targetProxy = 2D4B5A2A2925CD9E004F7AA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D4B5A132925CD4A004F7AA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4B5A142925CD4A004F7AA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D4B5A182925CD4C004F7AA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4B5A192925CD4C004F7AA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D4B5A1C2925CD4C004F7AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D4B5A1D2925CD4C004F7AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D4B5A1F2925CD4C004F7AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "NHNCloudPush-Sample/NHNCloudPush-SampleDebug.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NHNCloudPush-Sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhncloud.client.sdk.push.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D4B5A202925CD4C004F7AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NHNCloudPush-Sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhncloud.client.sdk.push.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D4B5A2E2925CD9E004F7AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PushServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PushServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhncloud.client.sdk.push.sample.ext;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D4B5A2F2925CD9E004F7AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PushServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PushServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhncloud.client.sdk.push.sample.ext;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D4B5A052925CD4A004F7AA0 /* Build configuration list for PBXProject "NHNCloudPush-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4B5A1C2925CD4C004F7AA0 /* Debug */,
+				2D4B5A1D2925CD4C004F7AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4B5A1E2925CD4C004F7AA0 /* Build configuration list for PBXNativeTarget "NHNCloudPush-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4B5A1F2925CD4C004F7AA0 /* Debug */,
+				2D4B5A202925CD4C004F7AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4B5A302925CD9E004F7AA0 /* Build configuration list for PBXNativeTarget "PushServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4B5A2E2925CD9E004F7AA0 /* Debug */,
+				2D4B5A2F2925CD9E004F7AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D4B5A022925CD4A004F7AA0 /* Project object */;
+}

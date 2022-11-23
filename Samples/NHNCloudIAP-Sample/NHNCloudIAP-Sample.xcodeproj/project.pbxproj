@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9086364292AFA4300B059DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9086363292AFA4300B059DF /* AppDelegate.swift */; };
+		D9086368292AFA4300B059DF /* IAPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9086367292AFA4300B059DF /* IAPViewController.swift */; };
+		D908636B292AFA4300B059DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9086369292AFA4300B059DF /* Main.storyboard */; };
+		D908636D292AFA4400B059DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D908636C292AFA4400B059DF /* Assets.xcassets */; };
+		D9086370292AFA4400B059DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D908636E292AFA4400B059DF /* LaunchScreen.storyboard */; };
+		D9086384292B075000B059DF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9086383292B075000B059DF /* UIView+Extension.swift */; };
+		D908639A292B1D3800B059DF /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9086399292B1D3800B059DF /* ProductsViewController.swift */; };
+		D908639C292B1D7B00B059DF /* PurchaseResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908639B292B1D7B00B059DF /* PurchaseResultsViewController.swift */; };
+		D90863A0292B4BB400B059DF /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908639F292B4BB400B059DF /* ProductCell.swift */; };
+		D90863A2292B501F00B059DF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90863A1292B501F00B059DF /* StoreKit.framework */; };
+		D90863A4292B5F5E00B059DF /* PurchaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90863A3292B5F5E00B059DF /* PurchaseCell.swift */; };
+		D90863A6292C954800B059DF /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90863A5292C954800B059DF /* Date+Extension.swift */; };
+		D9D9406D292DB94600435D62 /* NHNCloudCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D9406A292DB94500435D62 /* NHNCloudCore.xcframework */; };
+		D9D9406F292DB94600435D62 /* NHNCloudIAP.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D9406B292DB94500435D62 /* NHNCloudIAP.xcframework */; };
+		D9D94071292DB94600435D62 /* NHNCloudCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D9406C292DB94600435D62 /* NHNCloudCommon.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9086360292AFA4300B059DF /* NHNCloudIAP-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NHNCloudIAP-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9086363292AFA4300B059DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9086367292AFA4300B059DF /* IAPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPViewController.swift; sourceTree = "<group>"; };
+		D908636A292AFA4300B059DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D908636C292AFA4400B059DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D908636F292AFA4400B059DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9086371292AFA4400B059DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9086383292B075000B059DF /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		D9086399292B1D3800B059DF /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		D908639B292B1D7B00B059DF /* PurchaseResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseResultsViewController.swift; sourceTree = "<group>"; };
+		D908639F292B4BB400B059DF /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		D90863A1292B501F00B059DF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D90863A3292B5F5E00B059DF /* PurchaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseCell.swift; sourceTree = "<group>"; };
+		D90863A5292C954800B059DF /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		D9D9406A292DB94500435D62 /* NHNCloudCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCore.xcframework; path = ../../xcframeworks/NHNCloudCore.xcframework; sourceTree = "<group>"; };
+		D9D9406B292DB94500435D62 /* NHNCloudIAP.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudIAP.xcframework; path = ../../xcframeworks/NHNCloudIAP.xcframework; sourceTree = "<group>"; };
+		D9D9406C292DB94600435D62 /* NHNCloudCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCommon.xcframework; path = ../../xcframeworks/NHNCloudCommon.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D908635D292AFA4300B059DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D9406F292DB94600435D62 /* NHNCloudIAP.xcframework in Frameworks */,
+				D9D94071292DB94600435D62 /* NHNCloudCommon.xcframework in Frameworks */,
+				D90863A2292B501F00B059DF /* StoreKit.framework in Frameworks */,
+				D9D9406D292DB94600435D62 /* NHNCloudCore.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9086357292AFA4300B059DF = {
+			isa = PBXGroup;
+			children = (
+				D9086362292AFA4300B059DF /* NHNCloudIAP-Sample */,
+				D9086361292AFA4300B059DF /* Products */,
+				D908638E292B0DC100B059DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9086361292AFA4300B059DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9086360292AFA4300B059DF /* NHNCloudIAP-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9086362292AFA4300B059DF /* NHNCloudIAP-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				D9086363292AFA4300B059DF /* AppDelegate.swift */,
+				D9086367292AFA4300B059DF /* IAPViewController.swift */,
+				D9086399292B1D3800B059DF /* ProductsViewController.swift */,
+				D908639F292B4BB400B059DF /* ProductCell.swift */,
+				D90863A3292B5F5E00B059DF /* PurchaseCell.swift */,
+				D908639B292B1D7B00B059DF /* PurchaseResultsViewController.swift */,
+				D9086383292B075000B059DF /* UIView+Extension.swift */,
+				D90863A5292C954800B059DF /* Date+Extension.swift */,
+				D9086369292AFA4300B059DF /* Main.storyboard */,
+				D908636C292AFA4400B059DF /* Assets.xcassets */,
+				D908636E292AFA4400B059DF /* LaunchScreen.storyboard */,
+				D9086371292AFA4400B059DF /* Info.plist */,
+			);
+			path = "NHNCloudIAP-Sample";
+			sourceTree = "<group>";
+		};
+		D908638E292B0DC100B059DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9D9406C292DB94600435D62 /* NHNCloudCommon.xcframework */,
+				D9D9406A292DB94500435D62 /* NHNCloudCore.xcframework */,
+				D9D9406B292DB94500435D62 /* NHNCloudIAP.xcframework */,
+				D90863A1292B501F00B059DF /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D908635F292AFA4300B059DF /* NHNCloudIAP-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9086374292AFA4400B059DF /* Build configuration list for PBXNativeTarget "NHNCloudIAP-Sample" */;
+			buildPhases = (
+				D908635C292AFA4300B059DF /* Sources */,
+				D908635D292AFA4300B059DF /* Frameworks */,
+				D908635E292AFA4300B059DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NHNCloudIAP-Sample";
+			productName = "NHNCloudIAP-Sample";
+			productReference = D9086360292AFA4300B059DF /* NHNCloudIAP-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9086358292AFA4300B059DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D908635F292AFA4300B059DF = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = D908635B292AFA4300B059DF /* Build configuration list for PBXProject "NHNCloudIAP-Sample" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9086357292AFA4300B059DF;
+			productRefGroup = D9086361292AFA4300B059DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D908635F292AFA4300B059DF /* NHNCloudIAP-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D908635E292AFA4300B059DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9086370292AFA4400B059DF /* LaunchScreen.storyboard in Resources */,
+				D908636D292AFA4400B059DF /* Assets.xcassets in Resources */,
+				D908636B292AFA4300B059DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D908635C292AFA4300B059DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9086368292AFA4300B059DF /* IAPViewController.swift in Sources */,
+				D908639C292B1D7B00B059DF /* PurchaseResultsViewController.swift in Sources */,
+				D90863A4292B5F5E00B059DF /* PurchaseCell.swift in Sources */,
+				D9086364292AFA4300B059DF /* AppDelegate.swift in Sources */,
+				D9086384292B075000B059DF /* UIView+Extension.swift in Sources */,
+				D90863A6292C954800B059DF /* Date+Extension.swift in Sources */,
+				D90863A0292B4BB400B059DF /* ProductCell.swift in Sources */,
+				D908639A292B1D3800B059DF /* ProductsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9086369292AFA4300B059DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D908636A292AFA4300B059DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D908636E292AFA4400B059DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D908636F292AFA4400B059DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9086372292AFA4400B059DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9086373292AFA4400B059DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9086375292AFA4400B059DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NHNCloudIAP-Sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhncloud.client.sdk.iap.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9086376292AFA4400B059DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NHNCloudIAP-Sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhncloud.client.sdk.iap.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D908635B292AFA4300B059DF /* Build configuration list for PBXProject "NHNCloudIAP-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9086372292AFA4400B059DF /* Debug */,
+				D9086373292AFA4400B059DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9086374292AFA4400B059DF /* Build configuration list for PBXNativeTarget "NHNCloudIAP-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9086375292AFA4400B059DF /* Debug */,
+				D9086376292AFA4400B059DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9086358292AFA4300B059DF /* Project object */;
+}

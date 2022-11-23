@@ -1,0 +1,84 @@
+
+/* Class = "UIButton"; configuration.title = "태그 조회"; ObjectID = "39m-nz-XcF"; */
+"39m-nz-XcF.configuration.title" = "태그 조회";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "39m-nz-XcF"; */
+"39m-nz-XcF.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "변경"; ObjectID = "3nk-qZ-V5F"; */
+"3nk-qZ-V5F.configuration.title" = "변경";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3nk-qZ-V5F"; */
+"3nk-qZ-V5F.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "알림 표시"; ObjectID = "3qy-9x-v4K"; */
+"3qy-9x-v4K.text" = "알림 표시";
+
+/* Class = "UILabel"; text = "Tag 설정"; ObjectID = "5US-fg-B23"; */
+"5US-fg-B23.text" = "Tag 설정";
+
+/* Class = "UIButton"; configuration.title = "토큰 정보"; ObjectID = "63F-IE-l1M"; */
+"63F-IE-l1M.configuration.title" = "토큰 정보";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "63F-IE-l1M"; */
+"63F-IE-l1M.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "야간 광고성 알림"; ObjectID = "6Qq-QQ-GSI"; */
+"6Qq-QQ-GSI.text" = "야간 광고성 알림";
+
+/* Class = "UILabel"; text = "User ID"; ObjectID = "83C-ec-acu"; */
+"83C-ec-acu.text" = "User ID";
+
+/* Class = "UILabel"; text = "동의 여부"; ObjectID = "A4M-E1-NiH"; */
+"A4M-E1-NiH.text" = "동의 여부";
+
+/* Class = "UILabel"; text = "광고성 알림"; ObjectID = "Dk4-aa-J63"; */
+"Dk4-aa-J63.text" = "광고성 알림";
+
+/* Class = "UIButton"; configuration.title = "토큰 삭제"; ObjectID = "Ebh-Fb-WCk"; */
+"Ebh-Fb-WCk.configuration.title" = "토큰 삭제";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ebh-Fb-WCk"; */
+"Ebh-Fb-WCk.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "포그라운드 알림 사용 설정"; ObjectID = "LCo-KF-UBI"; */
+"LCo-KF-UBI.text" = "포그라운드 알림 사용 설정";
+
+/* Class = "UIButton"; configuration.title = "태그 삭제"; ObjectID = "Vlv-jQ-dvU"; */
+"Vlv-jQ-dvU.configuration.title" = "태그 삭제";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Vlv-jQ-dvU"; */
+"Vlv-jQ-dvU.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "태그 설정"; ObjectID = "dHS-HZ-7F6"; */
+"dHS-HZ-7F6.configuration.title" = "태그 설정";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dHS-HZ-7F6"; */
+"dHS-HZ-7F6.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "User ID를 입력해주세요."; ObjectID = "hnI-65-CjO"; */
+"hnI-65-CjO.placeholder" = "User ID를 입력해주세요.";
+
+/* Class = "UIButton"; configuration.title = "토큰 등록"; ObjectID = "hnq-Af-qQb"; */
+"hnq-Af-qQb.configuration.title" = "토큰 등록";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hnq-Af-qQb"; */
+"hnq-Af-qQb.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "NHN Cloud Push Sample"; ObjectID = "ns8-tx-ldI"; */
+"ns8-tx-ldI.text" = "NHN Cloud Push Sample";
+
+/* Class = "UIButton"; configuration.title = "태그 업데이트"; ObjectID = "qPb-Fq-U7d"; */
+"qPb-Fq-U7d.configuration.title" = "태그 업데이트";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qPb-Fq-U7d"; */
+"qPb-Fq-U7d.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "태그 추가"; ObjectID = "t54-X6-leF"; */
+"t54-X6-leF.configuration.title" = "태그 추가";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "t54-X6-leF"; */
+"t54-X6-leF.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Tag를 입력해주세요."; ObjectID = "tWd-Zt-qf1"; */
+"tWd-Zt-qf1.placeholder" = "Tag를 입력해주세요.";
