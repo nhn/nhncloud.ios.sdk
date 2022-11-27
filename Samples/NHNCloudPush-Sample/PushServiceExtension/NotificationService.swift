@@ -8,7 +8,7 @@
 import UserNotifications
 import NHNCloudPush
 
-let kAppKey:String = "HXRDtlLOpAqd32oz"
+let kAppKey:String = "Push AppKey"
 
 @available(iOSApplicationExtension 10.0, *)
 class NotificationService: NHNCloudPushServiceExtension {
