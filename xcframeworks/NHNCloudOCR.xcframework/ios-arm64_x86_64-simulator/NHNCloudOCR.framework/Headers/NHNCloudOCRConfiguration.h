@@ -31,7 +31,7 @@ typedef NS_ENUM(NSInteger, NHNCloudServiceZone) {
 - (instancetype)initWithAppKey:(NSString *)appKey secret:(NSString *)secret NS_SWIFT_NAME(init(appKey:secret:));
 
 - (void)enableTestGuide;
-- (void)disableDefaultUI;
+- (void)disableDefaultUI __deprecated_msg("You need to inherit and use NHNCloudCreditCardRecognizerServiceViewController to create a custom UI.");
 
 @end
 #endif

@@ -10,7 +10,7 @@
 #import <NHNCloudCommon/NHNCloudCommon.h>
 
 #import "NHNCloudOCRConfiguration.h"
-#import "NHNCloudCreditCardRecognizerViewController.h"
+#import "NHNCloudCreditCardRecognizerServiceViewController.h"
 #import "NHNCloudCreditCardInfo.h"
 #import "NHNCloudOCRError.h"
 
@@ -42,10 +42,10 @@ NS_SWIFT_NAME(initialize(configuration:));
                      delegate:(nullable id<NHNCloudCreditCardRecognizerDelegate>)delegate
 NS_SWIFT_NAME(initialize(configuration:delegate:));
 
-+ (NHNCloudCreditCardRecognizerViewController *)openCreditCardRecognizerViewController
++ (NHNCloudCreditCardRecognizerServiceViewController *)openCreditCardRecognizerViewController
 NS_SWIFT_NAME(openCreditCardRecognizerViewController());
 
-+ (nullable NHNCloudCreditCardRecognizerViewController *)creditCardRecognizerViewController
++ (nullable NHNCloudCreditCardRecognizerServiceViewController *)creditCardRecognizerViewController
 NS_SWIFT_NAME(creditCardRecognizerViewController());
 
 + (void)setDetectedImageReturn:(BOOL)enable;

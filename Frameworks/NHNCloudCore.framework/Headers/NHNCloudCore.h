@@ -35,3 +35,8 @@ typedef NS_ENUM(NSInteger, NHNCloudLogLevel) {
     NHNCloudLogLevel_FATAL, ToastLogLevel_FATAL __deprecated_msg("use NHNCloudLogLevel_FATAL instead.") = 4,
 };
 typedef NHNCloudLogLevel ToastLogLevel __deprecated_msg("use NHNCloudLogLevel instead.");
+
+typedef NS_ENUM(NSInteger, NHNCloudEnvironment) {
+    NHNCloudEnvironmentPublic = 0,
+    NHNCloudEnvironmentGovernment = 1,
+};

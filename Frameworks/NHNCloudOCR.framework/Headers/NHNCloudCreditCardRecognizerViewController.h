@@ -1,47 +1,18 @@
 //
 //  NHNCloudCreditCardRecognizerViewController.h
-//  DectedCreditCard
+//  NHNCloudOCR
 //
-//  Created by HyupM1 on 2022/03/07.
+//  Created by HyupM1 on 2022/11/10.
 //
 
-#import <Vision/Vision.h>
-
-#import "NHNCloudBaseRecognizerViewController.h"
-#import "NHNCloudCreditCardInfo.h"
-
+#import <NHNCloudOCR/NHNCloudOCR.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class NHNCloudCreditCardRecognizerViewController;
-@protocol NHNCloudCreditCardRecognizerViewControllerDelegate <NSObject>
-
-@optional
-- (void)didUpdateCreditCardGuide:(CGRect)rect orientation:(NHNCloudCreditCardOrientation)orientation viewController:(NHNCloudCreditCardRecognizerViewController *)viewController
-NS_SWIFT_NAME(didUpdateCreditCardGuide(rect:orientation:viewController:));
-
-- (void)didLoadCreditCardRecognizerViewController:(NHNCloudCreditCardRecognizerViewController *)viewController
-NS_SWIFT_NAME(didLoadCreditCardRecognizer(viewController:));
-
-- (void)didWillAppearCreditCardRecognizerViewController:(NHNCloudCreditCardRecognizerViewController *)viewController
-NS_SWIFT_NAME(didWillAppearCreditCardRecognizer(viewController:));
-
-- (void)didWillDisappearCreditCardRecognizerViewController:(NHNCloudCreditCardRecognizerViewController *)viewController
-NS_SWIFT_NAME(didWillDisappearCreditCardRecognizer(viewController:));
-
-- (void)didDisappearCreditCardRecognizerViewController:(NHNCloudCreditCardRecognizerViewController *)viewController
-NS_SWIFT_NAME(didDisappearCreditCardRecognizer(viewController:));
-
-@end
-
-@interface NHNCloudCreditCardRecognizerViewController : NHNCloudBaseRecognizerViewController
-
-@property (weak, nonatomic) id<NHNCloudCreditCardRecognizerViewControllerDelegate> delegate;
+@interface NHNCloudCreditCardRecognizerViewController : NHNCloudCreditCardRecognizerServiceViewController
 
 @property (assign, nonatomic, readonly) CGRect creditCardGuide;
 @property (assign, nonatomic, readonly) NHNCloudCreditCardOrientation creditCardGuideOrientation;
-
-- (void)didUpdateCreditCardGuide:(CGRect)rect orientation:(NHNCloudCreditCardOrientation)orientation;
 
 - (void)startRunning;
 - (void)stopRunning;
@@ -54,6 +25,10 @@ NS_SWIFT_NAME(didDisappearCreditCardRecognizer(viewController:));
 - (void)rotateCreditCardGuideOrientation;
 
 - (BOOL)isEnableDefaultUI;
+
+// Override
+- (void)didUpdateCreditCardGuide:(CGRect)rect orientation:(NHNCloudCreditCardOrientation)orientation;
+- (void)imageDidDetect:(BOOL)detected;
 
 @end
 

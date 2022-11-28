@@ -32,9 +32,11 @@ NS_ASSUME_NONNULL_BEGIN
 /** Whether or not sending crash is enabled. */
 @property (nonatomic) BOOL enableCrashReporter;
 
-/** NHN Cloud Cloud service zone(Real or Alpha) */
+/** NHN Cloud service zone(Real or Alpha) */
 @property (nonatomic) NHNCloudServiceZone serviceZone;
 
+/** NHN Cloud Environment (Public or Government) */
+@property (nonatomic) NHNCloudEnvironment cloudEnvironment;
 
 /**
  Initialize a configuration with the given appKey.
