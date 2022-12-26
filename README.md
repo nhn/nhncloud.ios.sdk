@@ -9,10 +9,10 @@
 
 iOS용 NHN Cloud SDK의 구성은 다음과 같습니다.
 
-* [Logger](https://docs.toast.com/ko/TOAST/ko/toast-sdk/log-collector-ios/) SDK
-* [In-app Purchase AppStore](https://docs.toast.com/ko/TOAST/ko/toast-sdk/iap-ios/) SDK
-* [Push](https://docs.toast.com/ko/TOAST/ko/toast-sdk/push-ios/) SDK
-* [OCR](https://docs.toast.com/ko/TOAST/ko/toast-sdk/creditcard-recognizer-ios) SDK
+* [Logger](https://docs.nhncloud.com/ko/TOAST/ko/toast-sdk/log-collector-ios/) SDK
+* [In-app Purchase AppStore](https://docs.nhncloud.com/ko/TOAST/ko/toast-sdk/iap-ios/) SDK
+* [Push](https://docs.nhncloud.com/ko/TOAST/ko/toast-sdk/push-ios/) SDK
+* [OCR](https://docs.nhncloud.com/ko/TOAST/ko/toast-sdk/creditcard-recognizer-ios) SDK
     
 NHN Cloud SDK가 제공하는 서비스 중 원하는 기능을 선택해 적용할 수 있습니다.
 
@@ -54,7 +54,7 @@ end
 
 #### SDK 가져오기(import)
 
-NHN Cloud [Downloads](https://docs.toast.com/ko/Download/#toast-sdk) 페이지에서 전체 iOS SDK를 다운로드할 수 있습니다.
+NHN Cloud [Downloads](https://docs.nhncloud.com/ko/Download/#nhncloud-sdk) 페이지에서 전체 iOS SDK를 다운로드할 수 있습니다.
 
 ![import_frameworks](https://static.toastoven.net/toastcloud/sdk/ios/overview_import_frameworks_folder_202206.png)
 
@@ -93,7 +93,7 @@ CrashReporter.framewor를 직접 다운로드하거나 빌드한 경우에는 Bu
 **Project Target > Build Settings > Build Options > Enable Bitcode**을 클릭하고 **NO**를 클릭합니다.
 
 ![enable_bitcode](http://static.toastoven.net/toastcloud/sdk/ios/overview_settings_bitcode_202206.png)
-> NHN Cloud의 [Downloads](https://docs.toast.com/ko/Download/#toast-sdk) 페이지에서 다운로드 받은 CrashReporter.framework는 bitCode를 지원합니다.
+> NHN Cloud의 [Downloads](https://docs.nhncloud.com/ko/Download/#nhncloud-sdk) 페이지에서 다운로드 받은 CrashReporter.framework는 bitCode를 지원합니다.
 
 
 #### 프레임워크 가져오기 
@@ -164,7 +164,7 @@ NHNCloudSDK와 관련해 문의하실 때는 디버그 모드를 활성화해서
 
 ## NHN Cloud Service 사용
 
-* [Log & Crash](https://docs.toast.com/ko/TOAST/ko/toast-sdk/log-collector-ios/) 사용 가이드
-* [In-app Purchase](https://docs.toast.com/ko/TOAST/ko/toast-sdk/iap-ios/) 사용 가이드
-* [Push](https://docs.toast.com/ko/TOAST/ko/toast-sdk/push-ios/) 사용 가이드
-* [OCR](https://docs.toast.com/ko/TOAST/ko/toast-sdk/creditcard-recognizer-ios) 사용 가이드
+* [Log & Crash](https://docs.nhncloud.com/ko/TOAST/ko/toast-sdk/log-collector-ios/) 사용 가이드
+* [In-app Purchase](https://docs.nhncloud.com/ko/TOAST/ko/toast-sdk/iap-ios/) 사용 가이드
+* [Push](https://docs.nhncloud.com/ko/TOAST/ko/toast-sdk/push-ios/) 사용 가이드
+* [OCR](https://docs.nhncloud.com/ko/TOAST/ko/toast-sdk/creditcard-recognizer-ios) 사용 가이드
