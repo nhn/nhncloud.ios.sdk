@@ -29,6 +29,7 @@
 #import "NHNCloudFileCache.h"
 #import "NHNCloudKeychainCache.h"
 #import "NHNCloudPreferences.h"
+#import "NHNCloudCameraManager.h"
 
 //! Project version number for NHNCloudCommon.
 FOUNDATION_EXPORT double NHNCloudCommonVersionNumber;

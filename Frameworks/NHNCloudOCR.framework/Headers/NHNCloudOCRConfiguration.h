@@ -7,17 +7,12 @@
 
 #import <Foundation/Foundation.h>
 
+#import <NHNCloudCore/NHNCloudCore.h>
 #import <NHNCloudCommon/NHNCloudCommon.h>
 
 NS_ASSUME_NONNULL_BEGIN
 #ifndef __NHNCloudServiceZone__
 #define __NHNCloudServiceZone__
-
-typedef NS_ENUM(NSInteger, NHNCloudServiceZone) {
-    NHNCloudServiceZoneReal = 0,
-    NHNCloudServiceZoneAlpha = 1,
-    NHNCloudServiceZoneBeta = 2,
-};
 
 @interface NHNCloudOCRConfiguration : NSObject
 

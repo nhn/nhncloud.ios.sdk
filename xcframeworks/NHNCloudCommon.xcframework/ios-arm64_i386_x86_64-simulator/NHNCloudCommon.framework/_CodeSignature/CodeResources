@@ -20,9 +20,13 @@
 		<data>
 		qDxXrs1/kvpNxKlaXTyckf/+8jA=
 		</data>
+		<key>Headers/NHNCloudCameraManager.h</key>
+		<data>
+		dDoETFNKIZaBw947+NZZegy7DGA=
+		</data>
 		<key>Headers/NHNCloudCommon.h</key>
 		<data>
-		xbwqva/Hpddla0DMrgrcQzbpATE=
+		LEkPRj2kFhQ4uv9XKlkSk87Pz2k=
 		</data>
 		<key>Headers/NHNCloudDictionary.h</key>
 		<data>
@@ -90,7 +94,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		j8goP+fAPt6kPDCb2Ugz8KPSfG0=
+		/l98/pILNjBM13go+pjkQO+wHn8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -143,15 +147,26 @@
 			z2kJTdKqHh3JK2zW4qxdNoy8DGgpJJQHB6NBWYnH0r0=
 			</data>
 		</dict>
+		<key>Headers/NHNCloudCameraManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dDoETFNKIZaBw947+NZZegy7DGA=
+			</data>
+			<key>hash2</key>
+			<data>
+			QZ+pIT2Hu8Hnuaaz3qcAeH7Nvpi/+HwGnPiaIMol4uc=
+			</data>
+		</dict>
 		<key>Headers/NHNCloudCommon.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xbwqva/Hpddla0DMrgrcQzbpATE=
+			LEkPRj2kFhQ4uv9XKlkSk87Pz2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			xXto52uRc7RdIbidlCkGAJgUje8wtprqNOZEoQDpT4w=
+			JSb66uCf6pqQC9wWy5Jlt/nChhn/jq5dA3gGC/zbNto=
 			</data>
 		</dict>
 		<key>Headers/NHNCloudDictionary.h</key>

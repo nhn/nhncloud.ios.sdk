@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/NHNCloudOCR+SDK.h</key>
 		<data>
-		vZciTNZWLHaWo3OnxWVm4VG8xVY=
+		A9l0Vsngoeg+YkhUA3GtJxKUorA=
 		</data>
 		<key>Headers/NHNCloudOCR.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/NHNCloudOCRConfiguration.h</key>
 		<data>
-		rQxqJwRZqccpWCmgWXQDKcrof5s=
+		xnpbkNCiHRzKy0A8CDPR0qUorE8=
 		</data>
 		<key>Headers/NHNCloudOCRError.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4YbpAXjhiuI4FJS98ZVEXPgT9vk=
+		ITaPVqKWWKNNzrfc8T+wiZLCZac=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vZciTNZWLHaWo3OnxWVm4VG8xVY=
+			A9l0Vsngoeg+YkhUA3GtJxKUorA=
 			</data>
 			<key>hash2</key>
 			<data>
-			xGLSjGoOn4s97q7XJoBqXBjRuDqq7tyke29cQLl9Ly4=
+			VUEGXEaWqGOZtmtfI5nXnwUaNBh8HJpj7CpfyBl63KM=
 			</data>
 		</dict>
 		<key>Headers/NHNCloudOCR.h</key>
@@ -117,11 +117,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rQxqJwRZqccpWCmgWXQDKcrof5s=
+			xnpbkNCiHRzKy0A8CDPR0qUorE8=
 			</data>
 			<key>hash2</key>
 			<data>
-			B0jHSMdfiFDYsKlhQU5qeGJHqm2lFy8SdctX9Fq6r7M=
+			A7ArTztqTAVLo7fwgITlqWVyZkcgZDqT5b9ROkli5sM=
 			</data>
 		</dict>
 		<key>Headers/NHNCloudOCRError.h</key>

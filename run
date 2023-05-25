@@ -47,10 +47,15 @@ if [ -z ${MARKETING_VERSION} ] ; then
 fi
 echo "VERSION = ${MARKETING_VERSION}"
 
-COMMAND_PATH="${PODS_ROOT}/NHNCloudSymbolUploader/nhncloud.ios.sdk-*/SymbolUploader "
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+COMMAND_PATH="${DIR}/SymbolUploader "
 
 ARGUMENTS="--app-key ${APP_KEY} --project-version ${MARKETING_VERSION}  --service-zone ${SERVICE_ZONE} ${TARGET_BUILD_DIR}"
 
 eval $COMMAND_PATH$ARGUMENTS
 
+# For Cocoapods
 #${PODS_ROOT}/NHNCloudSymbolUploader/nhncloud.ios.sdk-*/run --app-key LOG_N_CRASH_SEARCH_APPKEY
+
+# For SPM
+#${BUILD_DIR%Build/*}SourcePackages/checkouts/nhncloud.ios.sdk/run --app-key

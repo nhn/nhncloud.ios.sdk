@@ -51,8 +51,8 @@ NS_SWIFT_NAME(creditCardRecognizerViewController());
 + (void)setDetectedImageReturn:(BOOL)enable;
 + (BOOL)isEnableDetectedImageReturn;
 
-+ (void)setDebugMode:(BOOL)debugMode;
-+ (BOOL)isDebugMode;
++ (void)setDebugMode:(BOOL)debugMode __deprecated_msg("use \"NHNCloudSDK setDebugMode:\" instead.");;
++ (BOOL)isDebugMode __deprecated_msg("use \"NHNCloudSDK isDebugMode\" instead.");;
 
 + (NSString *)version;
 
