@@ -50,7 +50,46 @@ end
 #import <NHNCloudOCR/NHNCloudOCR.h>
 ```
 
-### 2. 바이너리를 다운로드하여 NHN Cloud SDK 적용
+### 2. Swift Package Manager를 사용해 NHN Cloud SDK 적용
+
+* XCode에서 **File > Add Packages...** 메뉴를 선택합니다.
+* Package URL에 'https://github.com/nhn/nhncloud.ios.sdk'를 넣고 **Add Package** 버튼을 선택합니다.
+* 추가를 원하는 Library를 선택합니다.
+
+![swift_package_manager](https://static.toastoven.net/toastcloud/sdk/ios/swiftpackagemanager01.png)
+
+#### 프로젝트 설정
+
+* **Build Settings**의 **Other Linker Flags**에 **-lc++**와 **-ObjC** 항목을 추가합니다.
+    * **Project Target > Build Settings > Linking > Other Linker Flags**
+![other_linker_flags](https://static.toastoven.net/toastcloud/sdk/ios/overview_settings_flags_202206.png)
+
+### 3. Carthage를 사용해 NHN Cloud SDK 적용
+
+* Cartfile을 생성하여 NHN Cloud SDK를 추가합니다.
+
+```sh
+# Full URL
+binary "https://api-storage.cloud.toast.com/v1/AUTH_f9e3dc598ca142d3820e1c19343d5428/carthage/NHNCloudSDK.json" 
+
+# Short URL
+binary "https://nh.nu/nhncloudsdk"
+```
+
+* 생성된 Carthage/Build 폴더의 Framework를 Xcode 프로젝트에 추가합니다.
+![carthage_import_framework](https://static.toastoven.net/toastcloud/sdk/ios/carthage01_202206.png)
+
+* 프로젝트에 다음과 같이 프레임워크(framework)가 추가된 것을 확인합니다.
+![import_carthage_frameworks_complete](https://static.toastoven.net/toastcloud/sdk/ios/carthage02_202206.png)
+![import_carthage_frameworks_complete](https://static.toastoven.net/toastcloud/sdk/ios/carthage03_202206.png)
+
+* NHN Cloud SDK를 사용하려면 **프레임워크 설정**과 **프로젝트 설정**을 해야합니다.
+
+> 서비스 중 원하는 기능을 선택하여 사용하기 위해서는 서비스별로 필요한 Framework만 선택하여 프로젝트에 추가해야 합니다.
+> 서비스별로 필요한 Framework는 [NHN Cloud SDK의 구성](./getting-started-ios/#toast-sdk)에서 확인할 수 있습니다.
+
+
+### 4. 바이너리를 다운로드하여 NHN Cloud SDK 적용
 
 #### SDK 가져오기(import)
 
