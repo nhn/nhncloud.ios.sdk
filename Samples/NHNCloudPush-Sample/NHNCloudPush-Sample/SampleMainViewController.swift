@@ -30,7 +30,8 @@ class SampleMainViewController: UIViewController {
 
     @IBAction func didTapRegisterToken(_ sender: Any) {
         NHNCloudSDK.setUserID(userIDTextField.text)
-        
+        NHNCloudPush.initialize(configuration: SampleUtil.shared.pushConfiguration)
+
         NHNCloudPush.register(agreement: SampleUtil.shared.pushAgreement) { tokenInfo, error in
             if (error != nil) {
                 SampleUtil.showAlert(title: "토큰 등록 실패", message: error?.localizedDescription ?? "")
@@ -60,6 +61,10 @@ class SampleMainViewController: UIViewController {
         }
     }
     
+    @IBAction func didChangeAlwaysAllowTokenRegistrationSwitch(_ sender: UISwitch) {
+        SampleUtil.shared.pushConfiguration.alwaysAllowTokenRegistration = sender.isOn
+    }
+    
     // MARK: 포그라운드 알림 및 동의 여부 설정
     @IBAction func didChangeForegroundSwitch(_ sender: UISwitch) {
         let options = NHNCloudPush.notificationOptions()
@@ -82,7 +87,6 @@ class SampleMainViewController: UIViewController {
         } else {
             nightAdvertisementsSwitch.isEnabled = true
         }
-        
     }
     
     @IBAction func didChangeNightAdvertisementsSwitch(_ sender: UISwitch) {

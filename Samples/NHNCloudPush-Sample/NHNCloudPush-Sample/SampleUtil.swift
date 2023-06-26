@@ -21,6 +21,8 @@ class SampleUtil {
         pushConfiguration.languageCode = "ko"
         // 개발환경(Debug)에서는 꼭 아래 sandbox 프로퍼티를 YES로 설정해야 개발용 인증서로 발송한 메시지의 수신이 가능합니다.
         pushConfiguration.sandbox = true
+        // 최초 실행일 경우 사용자에게 알림 허용 권한을 요청합니다. 알림 허용 권한을 획득하지 못하더라도 토큰을 등록합니다.
+        pushConfiguration.alwaysAllowTokenRegistration = false
     }
     
     var pushAgreement = NHNCloudPushAgreement(allowNotifications: true)

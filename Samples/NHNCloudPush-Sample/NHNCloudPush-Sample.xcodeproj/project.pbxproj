@@ -17,10 +17,10 @@
 		2D4B5A2C2925CD9E004F7AA0 /* PushServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D4B5A252925CD9E004F7AA0 /* PushServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2D4B5A3C2925D30C004F7AA0 /* SampleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B5A3B2925D30C004F7AA0 /* SampleUtil.swift */; };
 		2D4B5A412925F50D004F7AA0 /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B5A402925F50D004F7AA0 /* TagViewController.swift */; };
+		2D8D111A292C94FD00A05FCB /* NHNCloudCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8D1117292C94FC00A05FCB /* NHNCloudCore.xcframework */; };
+		2D8D111C292C94FD00A05FCB /* NHNCloudCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8D1118292C94FC00A05FCB /* NHNCloudCommon.xcframework */; };
+		2D8D111E292C94FD00A05FCB /* NHNCloudPush.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8D1119292C94FD00A05FCB /* NHNCloudPush.xcframework */; };
 		2D8D1122292C951800A05FCB /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8D1121292C951800A05FCB /* UserNotifications.framework */; };
-		D9D94063292DB92F00435D62 /* NHNCloudCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D94060292DB92E00435D62 /* NHNCloudCommon.xcframework */; };
-		D9D94065292DB92F00435D62 /* NHNCloudCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D94061292DB92F00435D62 /* NHNCloudCore.xcframework */; };
-		D9D94067292DB92F00435D62 /* NHNCloudPush.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D94062292DB92F00435D62 /* NHNCloudPush.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,10 +62,10 @@
 		2D4B5A3B2925D30C004F7AA0 /* SampleUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUtil.swift; sourceTree = "<group>"; };
 		2D4B5A3F2925F467004F7AA0 /* NHNCloudPush-SampleDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NHNCloudPush-SampleDebug.entitlements"; sourceTree = "<group>"; };
 		2D4B5A402925F50D004F7AA0 /* TagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
+		2D8D1117292C94FC00A05FCB /* NHNCloudCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCore.xcframework; path = ../../xcframework/NHNCloudCore.xcframework; sourceTree = "<group>"; };
+		2D8D1118292C94FC00A05FCB /* NHNCloudCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCommon.xcframework; path = ../../xcframework/NHNCloudCommon.xcframework; sourceTree = "<group>"; };
+		2D8D1119292C94FD00A05FCB /* NHNCloudPush.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudPush.xcframework; path = ../../xcframework/NHNCloudPush.xcframework; sourceTree = "<group>"; };
 		2D8D1121292C951800A05FCB /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
-		D9D94060292DB92E00435D62 /* NHNCloudCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCommon.xcframework; path = ../../xcframeworks/NHNCloudCommon.xcframework; sourceTree = "<group>"; };
-		D9D94061292DB92F00435D62 /* NHNCloudCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCore.xcframework; path = ../../xcframeworks/NHNCloudCore.xcframework; sourceTree = "<group>"; };
-		D9D94062292DB92F00435D62 /* NHNCloudPush.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudPush.xcframework; path = ../../xcframeworks/NHNCloudPush.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D8D1122292C951800A05FCB /* UserNotifications.framework in Frameworks */,
-				D9D94063292DB92F00435D62 /* NHNCloudCommon.xcframework in Frameworks */,
-				D9D94067292DB92F00435D62 /* NHNCloudPush.xcframework in Frameworks */,
-				D9D94065292DB92F00435D62 /* NHNCloudCore.xcframework in Frameworks */,
+				2D8D111A292C94FD00A05FCB /* NHNCloudCore.xcframework in Frameworks */,
+				2D8D111C292C94FD00A05FCB /* NHNCloudCommon.xcframework in Frameworks */,
+				2D8D111E292C94FD00A05FCB /* NHNCloudPush.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,10 +138,10 @@
 		2D8D1116292C94FB00A05FCB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D9D94060292DB92E00435D62 /* NHNCloudCommon.xcframework */,
-				D9D94061292DB92F00435D62 /* NHNCloudCore.xcframework */,
-				D9D94062292DB92F00435D62 /* NHNCloudPush.xcframework */,
 				2D8D1121292C951800A05FCB /* UserNotifications.framework */,
+				2D8D1118292C94FC00A05FCB /* NHNCloudCommon.xcframework */,
+				2D8D1117292C94FC00A05FCB /* NHNCloudCore.xcframework */,
+				2D8D1119292C94FD00A05FCB /* NHNCloudPush.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -40,6 +40,9 @@ A class that has configuration about push service required for initialization.
 /** Whther it is a sandbox environment or not. */
 @property (nonatomic) BOOL sandbox;
 
+/** Whether or not to register a token even if the user denies the permission. */
+@property (nonatomic) BOOL alwaysAllowTokenRegistration;
+
 
 /// ---------------------------------
 /// @name Initializes

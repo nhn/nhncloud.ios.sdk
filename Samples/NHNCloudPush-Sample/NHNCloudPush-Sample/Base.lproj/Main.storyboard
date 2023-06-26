@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="amV-hl-8Ke">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="amV-hl-8Ke">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="n5U-sC-n9x">
-                                <rect key="frame" x="8" y="108" width="398" height="389.5"/>
+                                <rect key="frame" x="8" y="108" width="398" height="448.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Rsm-g4-4Hr">
                                         <rect key="frame" x="0.0" y="0.0" width="398" height="34.5"/>
@@ -55,13 +55,13 @@
                                             <segue destination="yc6-E6-oHf" kind="show" id="42J-DD-s1C"/>
                                         </connections>
                                     </button>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="BrR-dR-IsO">
-                                        <rect key="frame" x="0.0" y="101" width="398" height="120"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="BrR-dR-IsO">
+                                        <rect key="frame" x="0.0" y="101" width="398" height="179"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bPe-UP-T3u">
                                                 <rect key="frame" x="0.0" y="0.0" width="398" height="31"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="포그라운드 알림 사용 설정" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LCo-KF-UBI">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="알림 권한 없는 경우에도 토큰 등록 허용" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LCo-KF-UBI">
                                                         <rect key="frame" x="0.0" y="0.0" width="349" height="31"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -70,26 +70,43 @@
                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pFs-nM-sBH">
                                                         <rect key="frame" x="349" y="0.0" width="51" height="31"/>
                                                         <connections>
-                                                            <action selector="didChangeForegroundSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="6YZ-0d-ZQH"/>
+                                                            <action selector="didChangeAlwaysAllowTokenRegistrationSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="OAU-n9-WAW"/>
+                                                        </connections>
+                                                    </switch>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dc7-38-Mhe">
+                                                <rect key="frame" x="0.0" y="41" width="398" height="31"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="포그라운드 알림 사용 설정" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rve-wx-kq4">
+                                                        <rect key="frame" x="0.0" y="0.0" width="349" height="31"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yqC-a1-RUt">
+                                                        <rect key="frame" x="349" y="0.0" width="51" height="31"/>
+                                                        <connections>
+                                                            <action selector="didChangeForegroundSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="zBS-pg-iH3"/>
                                                         </connections>
                                                     </switch>
                                                 </subviews>
                                             </stackView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mpH-UQ-w9d">
-                                                <rect key="frame" x="0.0" y="35" width="398" height="1"/>
+                                                <rect key="frame" x="0.0" y="82" width="398" height="1"/>
                                                 <color key="backgroundColor" systemColor="labelColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="USS-lU-PYT"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="동의 여부" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A4M-E1-NiH">
-                                                <rect key="frame" x="0.0" y="40" width="398" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="93" width="398" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="aBi-ZB-OJ7">
-                                                <rect key="frame" x="0.0" y="64.5" width="398" height="55.5"/>
+                                                <rect key="frame" x="0.0" y="123.5" width="398" height="55.5"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="MCv-V9-uk3">
                                                         <rect key="frame" x="0.0" y="0.0" width="122" height="55.5"/>
@@ -147,14 +164,14 @@
                                         </subviews>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VMr-5t-5cY">
-                                        <rect key="frame" x="0.0" y="237" width="398" height="1"/>
+                                        <rect key="frame" x="0.0" y="296" width="398" height="1"/>
                                         <color key="backgroundColor" systemColor="labelColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="Ypk-v6-ZoC"/>
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S9O-ku-2ei">
-                                        <rect key="frame" x="0.0" y="254" width="398" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="313" width="398" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="토큰 등록"/>
                                         <connections>
@@ -162,7 +179,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VB2-mR-btz">
-                                        <rect key="frame" x="0.0" y="304.5" width="398" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="363.5" width="398" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="토큰 정보"/>
                                         <connections>
@@ -170,7 +187,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PVW-cV-CvZ">
-                                        <rect key="frame" x="0.0" y="355" width="398" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="414" width="398" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="토큰 삭제">
                                             <color key="baseForegroundColor" red="0.9376840743" green="0.25934566539999998" blue="0.2190855538" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
