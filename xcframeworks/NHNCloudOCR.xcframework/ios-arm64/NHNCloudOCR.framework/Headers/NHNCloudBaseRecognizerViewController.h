@@ -9,13 +9,20 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NHNCloudBaseRecognizerViewController : UIViewController 
+@protocol NHNCloudBaseRecognizerViewControllerProtocol <NSObject>
+
+- (NSString *)notificationName;
+
+@end
+
+@interface NHNCloudBaseRecognizerViewController : UIViewController <NHNCloudBaseRecognizerViewControllerProtocol>
 
 - (void)startRunningCamera;
 - (void)stopRunningCamera;
 - (BOOL)isRunnginCamera;
 
 - (void)dismissViewController;
+- (void)dismissViewControllerWithCompletionHandler:(nullable void (^)(void))completionHandler;
 
 @end
 

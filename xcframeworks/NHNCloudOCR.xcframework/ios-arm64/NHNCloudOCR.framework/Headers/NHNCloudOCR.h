@@ -11,11 +11,14 @@
 #import "NHNCloudOCRConfiguration.h"
 
 #import "NHNCloudCreditCardInfo.h"
+#import "NHNCloudIDCardInfo.h"
 #import "NHNCloudOCRError.h"
 
 #import "NHNCloudBaseRecognizerViewController.h"
 #import "NHNCloudCreditCardRecognizerServiceViewController.h"
 #import "NHNCloudCreditCardRecognizerViewController.h"
+#import "NHNCloudIDCardRecognizerServiceViewController.h"
+#import "NHNCloudIDCardRecognizerViewController.h"
 
 //! Project version number for NHNCloudOCR.
 FOUNDATION_EXPORT double NHNCloudOCRVersionNumber;

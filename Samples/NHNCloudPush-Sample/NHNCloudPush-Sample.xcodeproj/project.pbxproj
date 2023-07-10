@@ -62,9 +62,9 @@
 		2D4B5A3B2925D30C004F7AA0 /* SampleUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUtil.swift; sourceTree = "<group>"; };
 		2D4B5A3F2925F467004F7AA0 /* NHNCloudPush-SampleDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NHNCloudPush-SampleDebug.entitlements"; sourceTree = "<group>"; };
 		2D4B5A402925F50D004F7AA0 /* TagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
-		2D8D1117292C94FC00A05FCB /* NHNCloudCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCore.xcframework; path = ../../xcframework/NHNCloudCore.xcframework; sourceTree = "<group>"; };
-		2D8D1118292C94FC00A05FCB /* NHNCloudCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCommon.xcframework; path = ../../xcframework/NHNCloudCommon.xcframework; sourceTree = "<group>"; };
-		2D8D1119292C94FD00A05FCB /* NHNCloudPush.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudPush.xcframework; path = ../../xcframework/NHNCloudPush.xcframework; sourceTree = "<group>"; };
+		2D8D1117292C94FC00A05FCB /* NHNCloudCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCore.xcframework; path = ../../xcframeworks/NHNCloudCore.xcframework; sourceTree = "<group>"; };
+		2D8D1118292C94FC00A05FCB /* NHNCloudCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCommon.xcframework; path = ../../xcframeworks/NHNCloudCommon.xcframework; sourceTree = "<group>"; };
+		2D8D1119292C94FD00A05FCB /* NHNCloudPush.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudPush.xcframework; path = ../../xcframeworks/NHNCloudPush.xcframework; sourceTree = "<group>"; };
 		2D8D1121292C951800A05FCB /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 

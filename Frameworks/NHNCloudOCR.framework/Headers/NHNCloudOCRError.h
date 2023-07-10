@@ -24,6 +24,7 @@ typedef NS_ERROR_ENUM(NHNCloudOCRErrorDomain, NHNCloudOCRError) {
     NHNCloudOCRErrorFailedToAddCamera = 4,             // 카메라 추가 실패
     NHNCloudOCRErrorFormatMismatch = 5,                // 포멧 불일치
     NHNCloudOCRErrorEncryptionFailed = 6,              // 암호화 실패
+    NHNCloudOCRErrorInvalidParameter = 7,              // 유효하지 않은 파라미터
 };
 
 #endif

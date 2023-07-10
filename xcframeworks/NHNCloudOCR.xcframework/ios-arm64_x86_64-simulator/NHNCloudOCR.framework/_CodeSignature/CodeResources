@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/NHNCloudBaseRecognizerViewController.h</key>
 		<data>
-		roM6I1UfLuma1Caq4rJKNKvjLTg=
+		R57MQC1n/8K5kKUB2d94g3+Rzhs=
 		</data>
 		<key>Headers/NHNCloudCreditCardInfo.h</key>
 		<data>
@@ -20,13 +20,25 @@
 		<data>
 		quVKyBm58XgPTyGHVnpxYOUfgrA=
 		</data>
+		<key>Headers/NHNCloudIDCardInfo.h</key>
+		<data>
+		ltVp0B759aZw22xvqFNzRRq9+GI=
+		</data>
+		<key>Headers/NHNCloudIDCardRecognizerServiceViewController.h</key>
+		<data>
+		XUhipJTsZ1oL9vY5T1xCUm/pfl0=
+		</data>
+		<key>Headers/NHNCloudIDCardRecognizerViewController.h</key>
+		<data>
+		+HbmD82+DQEUAyZYqxUWT2XyO4g=
+		</data>
 		<key>Headers/NHNCloudOCR+SDK.h</key>
 		<data>
-		A9l0Vsngoeg+YkhUA3GtJxKUorA=
+		3NnxrCTMrAUicrjzmtOwKWKaPJI=
 		</data>
 		<key>Headers/NHNCloudOCR.h</key>
 		<data>
-		QDQz/EOg57EDSAS3OjInhg5ojYE=
+		q34PxlHLNxKcmNMfpSjSaYCjVFU=
 		</data>
 		<key>Headers/NHNCloudOCRConfiguration.h</key>
 		<data>
@@ -34,11 +46,11 @@
 		</data>
 		<key>Headers/NHNCloudOCRError.h</key>
 		<data>
-		NOUufFix/qvH6DZ/pCQltk61jcY=
+		nhiuQuEFJSPY1a1CKRK4NxLN2x4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GkEvpzQgTRcmIwNEVdhDppH3Ajo=
+		rdTd+RACXrK0InRCh9XdkdnX0a0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,11 +63,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			roM6I1UfLuma1Caq4rJKNKvjLTg=
+			R57MQC1n/8K5kKUB2d94g3+Rzhs=
 			</data>
 			<key>hash2</key>
 			<data>
-			xcRFmJLkvdRXkk3gCf4POn0xkkPzAfGXQMH5kGC3EYs=
+			h2jgzypOeXj9xydpHRkrAy0cBi/ESwmv65vMm9NyGgw=
 			</data>
 		</dict>
 		<key>Headers/NHNCloudCreditCardInfo.h</key>
@@ -91,26 +103,59 @@
 			HroLRJybMZD6bVQS2UOg0caG40v+t3CefYknoWqU8ww=
 			</data>
 		</dict>
+		<key>Headers/NHNCloudIDCardInfo.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ltVp0B759aZw22xvqFNzRRq9+GI=
+			</data>
+			<key>hash2</key>
+			<data>
+			vLhBkZcsUE/Y6f7SIIHigb1PDi2fSZDSF5bsVykg3aM=
+			</data>
+		</dict>
+		<key>Headers/NHNCloudIDCardRecognizerServiceViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XUhipJTsZ1oL9vY5T1xCUm/pfl0=
+			</data>
+			<key>hash2</key>
+			<data>
+			NfLTpKaLruzuHJiooidx4FYI6B0WdmOD8iUJGYOLoFY=
+			</data>
+		</dict>
+		<key>Headers/NHNCloudIDCardRecognizerViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+HbmD82+DQEUAyZYqxUWT2XyO4g=
+			</data>
+			<key>hash2</key>
+			<data>
+			6s9OAkWlScHNN4wRVlMVSeyrq52ufnadssU/FtMo+ik=
+			</data>
+		</dict>
 		<key>Headers/NHNCloudOCR+SDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A9l0Vsngoeg+YkhUA3GtJxKUorA=
+			3NnxrCTMrAUicrjzmtOwKWKaPJI=
 			</data>
 			<key>hash2</key>
 			<data>
-			VUEGXEaWqGOZtmtfI5nXnwUaNBh8HJpj7CpfyBl63KM=
+			2U7OzoZ87uQb09S0p/pgR6zzEss4KqB9W48OeXWI23U=
 			</data>
 		</dict>
 		<key>Headers/NHNCloudOCR.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QDQz/EOg57EDSAS3OjInhg5ojYE=
+			q34PxlHLNxKcmNMfpSjSaYCjVFU=
 			</data>
 			<key>hash2</key>
 			<data>
-			i3xBrZ3M3dlr5ZO/HfLROKJbkNBJzrRO7eoggQF+N10=
+			Ri42tsKJxUqXKhikEaMuC6K1eRyPti+37BR1SzkE6uk=
 			</data>
 		</dict>
 		<key>Headers/NHNCloudOCRConfiguration.h</key>
@@ -128,11 +173,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NOUufFix/qvH6DZ/pCQltk61jcY=
+			nhiuQuEFJSPY1a1CKRK4NxLN2x4=
 			</data>
 			<key>hash2</key>
 			<data>
-			esn/RR2ySBs4JZHn5cByqATeFibaNAHLVjgtvGQtX3k=
+			FJob0zOhccj5IqPhvo363qGaei6Xo/J71GT5k5uZ9PI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

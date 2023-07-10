@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,78 +17,252 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOK-w0-APq">
-                                <rect key="frame" x="16" y="47" width="358" height="35"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tz5-eb-Kd3">
+                                <rect key="frame" x="0.0" y="47" width="390" height="763"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="X4Q-NM-rAu">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="664"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V8w-EO-Ffq">
+                                                <rect key="frame" x="0.0" y="0.0" width="390" height="40"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="신용카드 OCR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6XB-Fj-0oZ">
+                                                        <rect key="frame" x="39.999999999999993" y="11.666666666666663" width="98.333333333333314" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="mPe-45-s0c"/>
+                                                    <constraint firstAttribute="bottom" secondItem="6XB-Fj-0oZ" secondAttribute="bottom" constant="8" id="mY4-s9-SPg"/>
+                                                    <constraint firstItem="6XB-Fj-0oZ" firstAttribute="leading" secondItem="V8w-EO-Ffq" secondAttribute="leading" constant="40" id="xbC-Jp-Nte"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOK-w0-APq">
+                                                <rect key="frame" x="0.0" y="40" width="390" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="KeJ-rr-EDT"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Default UI Sample"/>
+                                                <connections>
+                                                    <action selector="didTapCreditCardDefaultOCRButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="pbh-7S-iZF"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apa-uP-KCa">
+                                                <rect key="frame" x="0.0" y="90" width="390" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="N84-nr-5R5"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Custom UI Sample"/>
+                                                <connections>
+                                                    <action selector="didTapCreditCardCustomOCRButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="ugr-MZ-ITq"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lIN-qC-h13">
+                                                <rect key="frame" x="0.0" y="140" width="390" height="2"/>
+                                                <color key="backgroundColor" systemColor="separatorColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="2" id="C6G-Gf-uA2"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0d9-cB-ABa">
+                                                <rect key="frame" x="0.0" y="142" width="390" height="60"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="신분증 OCR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEM-ED-RPw">
+                                                        <rect key="frame" x="40.000000000000007" y="31.666666666666657" width="83.666666666666686" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="3f0-KP-tpt"/>
+                                                    <constraint firstItem="yEM-ED-RPw" firstAttribute="leading" secondItem="0d9-cB-ABa" secondAttribute="leading" constant="40" id="KZM-9q-5W4"/>
+                                                    <constraint firstAttribute="bottom" secondItem="yEM-ED-RPw" secondAttribute="bottom" constant="8" id="ccW-9J-110"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzP-cI-vaj">
+                                                <rect key="frame" x="0.0" y="202" width="390" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="zJ6-wQ-Ya8"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Default UI Sample"/>
+                                                <connections>
+                                                    <action selector="didTapIDCardDefaultOCRButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="5t8-gr-qdd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y37-ZB-1nf">
+                                                <rect key="frame" x="0.0" y="252" width="390" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="ho5-DL-AEg"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Custom UI Sample"/>
+                                                <connections>
+                                                    <action selector="didTapIDCardCustomOCRButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Rs-ib-kpd"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H6h-73-GAa">
+                                                <rect key="frame" x="0.0" y="302" width="390" height="200"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="신분증 OCR 결과" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Er6-zB-nmF">
+                                                        <rect key="frame" x="39.999999999999993" y="20" width="117.33333333333331" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kf1-3s-bg1">
+                                                        <rect key="frame" x="20" y="101.33333333333331" width="350" height="34.333333333333343"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="34.333333333333343" id="XPS-n7-rUK"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="진위확인">
+                                                            <backgroundConfiguration key="background">
+                                                                <color key="backgroundColor" systemColor="linkColor"/>
+                                                            </backgroundConfiguration>
+                                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="didTapVerificateAuthenticityIDCardButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vfb-fd-vbR"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxH-Sr-bjA">
+                                                        <rect key="frame" x="20" y="145.66666666666669" width="350" height="34.333333333333343"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="34.333333333333343" id="go2-ra-U4b"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="삭제">
+                                                            <backgroundConfiguration key="background">
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </backgroundConfiguration>
+                                                            <color key="baseForegroundColor" systemColor="tintColor"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="didTapDeleteIDCardOCRResultButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="6gO-kH-xYa"/>
+                                                        </connections>
+                                                    </button>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Z5b-Zn-QqI">
+                                                        <rect key="frame" x="20" y="52.333333333333314" width="350" height="29"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" priority="250" constant="20" id="dWx-cl-V3M"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="gxH-Sr-bjA" firstAttribute="leading" secondItem="H6h-73-GAa" secondAttribute="leading" constant="20" symbolic="YES" id="1sT-1y-tim"/>
+                                                    <constraint firstItem="gxH-Sr-bjA" firstAttribute="top" secondItem="Kf1-3s-bg1" secondAttribute="bottom" constant="10" id="IXt-an-cAI"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Kf1-3s-bg1" secondAttribute="trailing" constant="20" id="OSN-Wg-07m"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Z5b-Zn-QqI" secondAttribute="trailing" constant="20" id="OYg-fZ-jkV"/>
+                                                    <constraint firstItem="Kf1-3s-bg1" firstAttribute="top" secondItem="Z5b-Zn-QqI" secondAttribute="bottom" constant="20" id="QTZ-Ca-y7k"/>
+                                                    <constraint firstItem="Er6-zB-nmF" firstAttribute="leading" secondItem="H6h-73-GAa" secondAttribute="leading" constant="40" id="Qhi-m2-72U"/>
+                                                    <constraint firstAttribute="bottom" secondItem="gxH-Sr-bjA" secondAttribute="bottom" constant="20" id="TUW-PH-TmW"/>
+                                                    <constraint firstItem="Er6-zB-nmF" firstAttribute="top" secondItem="H6h-73-GAa" secondAttribute="top" constant="20" id="YLu-Ae-Xce"/>
+                                                    <constraint firstAttribute="trailing" secondItem="gxH-Sr-bjA" secondAttribute="trailing" constant="20" symbolic="YES" id="bQd-Rp-NT6"/>
+                                                    <constraint firstItem="Z5b-Zn-QqI" firstAttribute="top" secondItem="Er6-zB-nmF" secondAttribute="bottom" constant="12" id="g24-ih-oxr"/>
+                                                    <constraint firstItem="Z5b-Zn-QqI" firstAttribute="leading" secondItem="H6h-73-GAa" secondAttribute="leading" constant="20" id="m7y-RA-y2J"/>
+                                                    <constraint firstItem="Kf1-3s-bg1" firstAttribute="leading" secondItem="H6h-73-GAa" secondAttribute="leading" constant="20" id="yu7-84-N16"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y5I-Qz-gyH">
+                                                <rect key="frame" x="0.0" y="502" width="390" height="2"/>
+                                                <color key="backgroundColor" systemColor="separatorColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="2" id="RQ8-Jr-9yo"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QvX-ev-r0N">
+                                                <rect key="frame" x="0.0" y="504" width="390" height="60"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="신분증 진위확인" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PlD-Cr-bOr">
+                                                        <rect key="frame" x="39.999999999999993" y="31.666666666666629" width="107.33333333333331" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="PlD-Cr-bOr" firstAttribute="leading" secondItem="QvX-ev-r0N" secondAttribute="leading" constant="40" id="Mva-4T-yQR"/>
+                                                    <constraint firstAttribute="bottom" secondItem="PlD-Cr-bOr" secondAttribute="bottom" constant="8" id="kDQ-XC-akk"/>
+                                                    <constraint firstAttribute="height" constant="60" id="tg2-Z8-Zac"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZZ-K6-9Av">
+                                                <rect key="frame" x="0.0" y="564" width="390" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="xfC-pq-7Lp"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="주민등록증 진위확인"/>
+                                                <connections>
+                                                    <action selector="didTapVerificateAuthenticityResidentInfoButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="gSr-P7-dSH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Doj-iK-RUI">
+                                                <rect key="frame" x="0.0" y="614" width="390" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="CMK-SY-AmS"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="운전면허증 진위확인"/>
+                                                <connections>
+                                                    <action selector="didTapVerificateAuthenticityDriverInfoButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="8R1-h1-zJ2"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="Uaz-w2-Xcv"/>
+                                    <constraint firstItem="X4Q-NM-rAu" firstAttribute="top" secondItem="Tz5-eb-Kd3" secondAttribute="top" id="1Fn-Yt-1IX"/>
+                                    <constraint firstItem="X4Q-NM-rAu" firstAttribute="width" secondItem="Tz5-eb-Kd3" secondAttribute="width" id="Q2G-P6-hsS"/>
+                                    <constraint firstItem="X4Q-NM-rAu" firstAttribute="leading" secondItem="Tz5-eb-Kd3" secondAttribute="leading" id="VbW-mT-sju"/>
+                                    <constraint firstAttribute="bottom" secondItem="X4Q-NM-rAu" secondAttribute="bottom" id="t5M-pE-q1K"/>
+                                    <constraint firstAttribute="trailing" secondItem="X4Q-NM-rAu" secondAttribute="trailing" id="wDq-7J-EER"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Default UI Sample"/>
-                                <connections>
-                                    <segue destination="VwL-bv-hdi" kind="show" id="pgZ-pP-4ss"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apa-uP-KCa">
-                                <rect key="frame" x="16" y="90" width="358" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Custom UI Sample"/>
-                                <connections>
-                                    <segue destination="atL-zh-7wU" kind="show" id="bfm-Qu-Xhh"/>
-                                </connections>
-                            </button>
+                                <viewLayoutGuide key="contentLayoutGuide" id="RBm-fX-dCS"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="dmY-wS-reH"/>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="xOK-w0-APq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5GA-GP-zDS"/>
-                            <constraint firstItem="xOK-w0-APq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5lF-3B-rK0"/>
-                            <constraint firstItem="apa-uP-KCa" firstAttribute="top" secondItem="xOK-w0-APq" secondAttribute="bottom" constant="8" id="9mq-6C-Pup"/>
-                            <constraint firstItem="apa-uP-KCa" firstAttribute="leading" secondItem="xOK-w0-APq" secondAttribute="leading" id="FrH-cV-0ei"/>
-                            <constraint firstItem="apa-uP-KCa" firstAttribute="trailing" secondItem="xOK-w0-APq" secondAttribute="trailing" id="IoV-lC-iO4"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xOK-w0-APq" secondAttribute="trailing" constant="16" id="fAV-xN-xMd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tz5-eb-Kd3" secondAttribute="trailing" id="0Kz-nj-FYQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Tz5-eb-Kd3" secondAttribute="bottom" id="4dK-KY-QIL"/>
+                            <constraint firstItem="Tz5-eb-Kd3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Mdt-WU-B6I"/>
+                            <constraint firstItem="Tz5-eb-Kd3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cY4-2j-lEC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="idCardOCRResultStackView" destination="Z5b-Zn-QqI" id="lyy-ny-obk"/>
+                        <outlet property="idCardOCRResultView" destination="H6h-73-GAa" id="vaw-hG-KpJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-145" y="313"/>
-        </scene>
-        <!--DefaultOCR View Controller-->
-        <scene sceneID="DRK-aW-3nt">
-            <objects>
-                <viewController id="VwL-bv-hdi" customClass="DefaultOCRViewController" customModule="NHNCloudOCR_Sample" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="imM-Wt-mLN">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Byk-zF-Gqo"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="jUD-Kc-vNc"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ubd-g5-vto" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="812" y="-2"/>
-        </scene>
-        <!--CustomOCR View Controller-->
-        <scene sceneID="Oib-d6-cGg">
-            <objects>
-                <viewController id="atL-zh-7wU" customClass="CustomOCRViewController" customModule="NHNCloudOCR_Sample" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="nGJ-RC-blb">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Cc0-Kt-b0v"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="qEx-Ib-lNN"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uhz-cm-3Ix" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="811" y="641"/>
+            <point key="canvasLocation" x="-146.15384615384616" y="312.7962085308057"/>
         </scene>
     </scenes>
     <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="separatorColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
