@@ -230,7 +230,9 @@ extension ViewController {
             if let idCardInfo = idCardInfo {
                 self.idCardOCRResultView.isHidden = false
                 
-                self.idCardOCRResultStackView.addArrangedSubview(self.createImageView(idCardInfo.detectedImage?.image))
+                let imageView = self.createImageView(idCardInfo.detectedImage?.image)
+                drawBoundingBoxes(boundingBoxes: idCardInfo.boundingBoxes, over: imageView)
+                self.idCardOCRResultStackView.addArrangedSubview(imageView)
                 
                 switch idCardInfo.type {
                 case .driver:
@@ -276,6 +278,33 @@ extension ViewController {
         ])
         
         return imageView
+    }
+    
+    private func drawBoundingBoxes(boundingBoxes: [NSValue]?, over imageView: UIImageView) {
+        UIGraphicsBeginImageContextWithOptions(imageView.frame.size, false, 0.0);
+        guard let context = UIGraphicsGetCurrentContext(),
+              let boundingBoxes = boundingBoxes else { return }
+        
+        imageView.image?.draw(in: CGRect(x: 0, y: 0, width: imageView.frame.size.width, height: imageView.frame.size.height))
+        
+        for rectValue in boundingBoxes {
+            let boundingBox = dividedRect(rect: rectValue.cgRectValue, scale: UIScreen.main.scale)
+    
+            context.setStrokeColor(UIColor.orange.cgColor)
+            context.setLineWidth(5.0)
+            context.stroke(boundingBox)
+            
+        }
+        
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        imageView.image = newImage
+    }
+    
+    private func dividedRect(rect: CGRect, scale: CGFloat) -> CGRect {
+        return CGRect(x: rect.origin.x / scale, y: rect.origin.y / scale,
+                      width: rect.size.width / scale, height: rect.size.height / scale)
     }
     
     private func didDetectSecurityEvent(_ event: NHNCloudSecurityEvent) {
