@@ -46,6 +46,8 @@ typedef NS_ENUM(NSInteger, NHNCloudCreditCardOrientation) {
 @property(nonatomic, strong, readonly, nullable) NSArray<NHNCloudCreditCardNumber *> *numbers;
 @property(nonatomic, strong, readonly, nullable) NHNCloudCreditCardValidThru *validThru;
 @property(nonatomic, strong, readonly, nullable) NHNCloudDetectCreditCardImage *detectedImage;
+@property(nonatomic, strong, readonly, nullable) NSArray<NSValue *> *numberBoundingBoxes;
+@property(nonatomic, assign, readonly) CGRect validThruBoundingBox;
 
 - (char *)cStringTotalNumber;
 @end

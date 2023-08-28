@@ -35,6 +35,7 @@ typedef NS_ENUM(NSInteger, NHNCloudIDCardType) {
 
 @property(nonatomic, readonly) NHNCloudIDCardType type;
 @property(nonatomic, strong, readonly, nullable) NHNCloudDetectIDCardImage *detectedImage;
+@property(nonatomic, strong, readonly, nullable) NSArray<NSValue *> *boundingBoxes;
 
 @property(nonatomic, strong, readonly, nullable) NHNCloudIDCardValue *name;
 @property(nonatomic, strong, readonly, nullable) NHNCloudIDCardValue *residentNumber;
