@@ -22,6 +22,7 @@ class CustomIDCardOCRViewController: NHNCloudIDCardRecognizerServiceViewControll
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        NHNCloudOCR.setDetectedImageReturn(true)
         NHNCloudOCR.setIDCardRecognizerDelegate(self)
         
         self.navigationController?.navigationBar.isHidden = true

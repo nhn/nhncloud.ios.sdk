@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D2375B22AA6CDED00AAE993 /* DefaultIDCardOCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2375B12AA6CDED00AAE993 /* DefaultIDCardOCRViewController.swift */; };
 		D915E7682925D27E00FA0FCC /* CustomCreditCardOCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D915E7672925D27E00FA0FCC /* CustomCreditCardOCRViewController.swift */; };
 		D915E76A2925D4FE00FA0FCC /* CreditCardOCRCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D915E7692925D4FE00FA0FCC /* CreditCardOCRCustomView.swift */; };
-		D99F91F52A4E771800CF672E /* NHNCloudOCR.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F91F22A4E771800CF672E /* NHNCloudOCR.xcframework */; };
-		D99F91F72A4E771800CF672E /* NHNCloudCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F91F32A4E771800CF672E /* NHNCloudCore.xcframework */; };
-		D99F91F92A4E771900CF672E /* NHNCloudCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F91F42A4E771800CF672E /* NHNCloudCommon.xcframework */; };
 		D9BF909B2A49659F00C78265 /* CustomIDCardOCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BF909A2A49659F00C78265 /* CustomIDCardOCRViewController.swift */; };
 		D9BF909D2A496BD700C78265 /* IDCardOCRCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BF909C2A496BD700C78265 /* IDCardOCRCustomView.swift */; };
 		D9D7FF5B2925BF9A0088243D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7FF5A2925BF9A0088243D /* AppDelegate.swift */; };
@@ -22,14 +20,15 @@
 		D9D7FF672925BF9B0088243D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D7FF652925BF9B0088243D /* LaunchScreen.storyboard */; };
 		D9D7FF7A2925BFEC0088243D /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D7FF792925BFEB0088243D /* Vision.framework */; };
 		D9D7FF7C2925BFF10088243D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D7FF7B2925BFF10088243D /* AVFoundation.framework */; };
+		D9E56AA22AAEE7EE00AF4E01 /* NHNCloudCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E56A9F2AAEE7EE00AF4E01 /* NHNCloudCommon.xcframework */; };
+		D9E56AA42AAEE7EF00AF4E01 /* NHNCloudOCR.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E56AA02AAEE7EE00AF4E01 /* NHNCloudOCR.xcframework */; };
+		D9E56AA62AAEE7EF00AF4E01 /* NHNCloudCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E56AA12AAEE7EE00AF4E01 /* NHNCloudCore.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D2375B12AA6CDED00AAE993 /* DefaultIDCardOCRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultIDCardOCRViewController.swift; sourceTree = "<group>"; };
 		D915E7672925D27E00FA0FCC /* CustomCreditCardOCRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCreditCardOCRViewController.swift; sourceTree = "<group>"; };
 		D915E7692925D4FE00FA0FCC /* CreditCardOCRCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardOCRCustomView.swift; sourceTree = "<group>"; };
-		D99F91F22A4E771800CF672E /* NHNCloudOCR.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudOCR.xcframework; path = ../../xcframeworks/NHNCloudOCR.xcframework; sourceTree = "<group>"; };
-		D99F91F32A4E771800CF672E /* NHNCloudCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCore.xcframework; path = ../../xcframeworks/NHNCloudCore.xcframework; sourceTree = "<group>"; };
-		D99F91F42A4E771800CF672E /* NHNCloudCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCommon.xcframework; path = ../../xcframeworks/NHNCloudCommon.xcframework; sourceTree = "<group>"; };
 		D9BF909A2A49659F00C78265 /* CustomIDCardOCRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIDCardOCRViewController.swift; sourceTree = "<group>"; };
 		D9BF909C2A496BD700C78265 /* IDCardOCRCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDCardOCRCustomView.swift; sourceTree = "<group>"; };
 		D9D7FF572925BF9A0088243D /* NHNCloudOCR-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NHNCloudOCR-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +41,9 @@
 		D9D7FF682925BF9B0088243D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9D7FF792925BFEB0088243D /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
 		D9D7FF7B2925BFF10088243D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D9E56A9F2AAEE7EE00AF4E01 /* NHNCloudCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCommon.xcframework; path = ../../xcframeworks/NHNCloudCommon.xcframework; sourceTree = "<group>"; };
+		D9E56AA02AAEE7EE00AF4E01 /* NHNCloudOCR.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudOCR.xcframework; path = ../../xcframeworks/NHNCloudOCR.xcframework; sourceTree = "<group>"; };
+		D9E56AA12AAEE7EE00AF4E01 /* NHNCloudCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCore.xcframework; path = ../../xcframeworks/NHNCloudCore.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,11 +51,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D99F91F52A4E771800CF672E /* NHNCloudOCR.xcframework in Frameworks */,
+				D9E56AA62AAEE7EF00AF4E01 /* NHNCloudCore.xcframework in Frameworks */,
 				D9D7FF7A2925BFEC0088243D /* Vision.framework in Frameworks */,
+				D9E56AA42AAEE7EF00AF4E01 /* NHNCloudOCR.xcframework in Frameworks */,
+				D9E56AA22AAEE7EE00AF4E01 /* NHNCloudCommon.xcframework in Frameworks */,
 				D9D7FF7C2925BFF10088243D /* AVFoundation.framework in Frameworks */,
-				D99F91F72A4E771800CF672E /* NHNCloudCore.xcframework in Frameworks */,
-				D99F91F92A4E771900CF672E /* NHNCloudCommon.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				D9BF909A2A49659F00C78265 /* CustomIDCardOCRViewController.swift */,
+				2D2375B12AA6CDED00AAE993 /* DefaultIDCardOCRViewController.swift */,
 				D9BF909C2A496BD700C78265 /* IDCardOCRCustomView.swift */,
 			);
 			path = "ID Card OCR";
@@ -114,9 +117,9 @@
 		D9D7FF6E2925BFDF0088243D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D99F91F42A4E771800CF672E /* NHNCloudCommon.xcframework */,
-				D99F91F32A4E771800CF672E /* NHNCloudCore.xcframework */,
-				D99F91F22A4E771800CF672E /* NHNCloudOCR.xcframework */,
+				D9E56A9F2AAEE7EE00AF4E01 /* NHNCloudCommon.xcframework */,
+				D9E56AA12AAEE7EE00AF4E01 /* NHNCloudCore.xcframework */,
+				D9E56AA02AAEE7EE00AF4E01 /* NHNCloudOCR.xcframework */,
 				D9D7FF7B2925BFF10088243D /* AVFoundation.framework */,
 				D9D7FF792925BFEB0088243D /* Vision.framework */,
 			);
@@ -200,6 +203,7 @@
 				D9BF909B2A49659F00C78265 /* CustomIDCardOCRViewController.swift in Sources */,
 				D915E76A2925D4FE00FA0FCC /* CreditCardOCRCustomView.swift in Sources */,
 				D9D7FF5B2925BF9A0088243D /* AppDelegate.swift in Sources */,
+				2D2375B22AA6CDED00AAE993 /* DefaultIDCardOCRViewController.swift in Sources */,
 				D9D7FF5D2925BF9A0088243D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
