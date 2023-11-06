@@ -2,8 +2,8 @@
 
 ## 지원 환경
 
-* iOS 9.0 이상
-* XCode 최신 버전(버전 13 이상)
+* iOS 11.0 이상
+* XCode 최신 버전(버전 14 이상)
 
 ## NHN Cloud SDK의 구성
 
@@ -19,10 +19,10 @@ NHN Cloud SDK가 제공하는 서비스 중 원하는 기능을 선택해 적용
 | Service | Cocoapods Pod Name | Carthage | Framework | Deployment Target | Dependency | Build Settings |
 | --- | --- | --- | --- | --- | --- | --- |
 | All | NHNCloudSDK | binary "[https://nh.nu/nhncloudsdk](https://nh.nu/nhncloudsdk) | NHNCloudCore.framework<br>NHNCloudCommon.framework<br>NHNCloudLogger.framework<br>NHNCloudIAP.framework<br>NHNCloudPush.framework |  |  |  |
-| Mandatory | NHNCloudCore<br>NHNCloudCommon |  | NHNCloudCore.framework<br>NHNCloudCommon.framework | 9.0 |  | OTHER\_LDFLAGS = (<br>"-ObjC",<br>"-lc++"<br>); |
-| Log & Crash | NHNCloudLogger |  | NHNCloudLogger.framework | 9.0 | [External & Optional]<br>\* CrashReporter.framework (NHNCloud) |  |
-| IAP | NHNCloudIAP |  | NHNCloudIAP.framework | 9.0 | \* StoreKit.framework<br><br>[Optional]<br>\* libsqlite3.tdb |  |
-| Push | NHNCloudPush |  | NHNCloudPush.framework | 9.0 | \* UserNotifications.framework<br><br>[Optional]<br>\* PushKit.framework |  |
+| Mandatory | NHNCloudCore<br>NHNCloudCommon |  | NHNCloudCore.framework<br>NHNCloudCommon.framework | 11.0 |  | OTHER\_LDFLAGS = (<br>"-ObjC",<br>"-lc++"<br>); |
+| Log & Crash | NHNCloudLogger |  | NHNCloudLogger.framework | 11.0 | [External & Optional]<br>\* CrashReporter.framework (NHNCloud) |  |
+| IAP | NHNCloudIAP |  | NHNCloudIAP.framework | 11.0 | \* StoreKit.framework<br><br>[Optional]<br>\* libsqlite3.tdb |  |
+| Push | NHNCloudPush |  | NHNCloudPush.framework | 11.0 | \* UserNotifications.framework<br><br>[Optional]<br>\* PushKit.framework |  |
 | OCR | NHNCloudOCR |  | NHNCloudOCR.framework | 11.0 | \* Vision.framework<br>\* AVFoundation.framework |  |
 
 ## NHN Cloud SDK를 Xcode 프로젝트에 적용
