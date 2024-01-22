@@ -46,7 +46,7 @@
 		</data>
 		<key>ios-arm64/NHNCloudLogger.framework/Info.plist</key>
 		<data>
-		uKL9FLneH0Q0ANjWFmpoi24rfAI=
+		8dy1xJVe1QIYc9CHSaos2IKVg+0=
 		</data>
 		<key>ios-arm64/NHNCloudLogger.framework/Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>ios-arm64/NHNCloudLogger.framework/NHNCloudLogger</key>
 		<data>
-		fngDKE6HCYYWM85PZnyZ9Nz2ZWk=
+		4xVaUgqz4HqiatwpInM+/iZoX7g=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/Headers/NHNCloudInstanceLogger.h</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/Info.plist</key>
 		<data>
-		EQv4TFrAYtAzL8qz9qcFwPndZCY=
+		jYEm/Bk7CbpdTMBj96Iadn4wptM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/Modules/module.modulemap</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/NHNCloudLogger</key>
 		<data>
-		uGl4RUhwTTR7yhjmMMrRrvXr2+U=
+		ndAVZPQwz2yh0ivwbk9lVvfbdu4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		8Mi/YhD0k6qezmitusQWUeFf2cQ=
+		6YY4HqXsoTIO/RJ/J9kk1dxDJnY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		ub2t6rZYU8CcsOcTF0/inE7/WnM=
+		TnWX48VUK/L+fqCudvOCWoyA+GI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeResources</key>
 		<data>
-		lO6iwEpgxPUbdMs9t/ZDjVowJ+Y=
+		x43RUocXYC2LPq8R1NNv8G5gec8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -245,11 +245,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uKL9FLneH0Q0ANjWFmpoi24rfAI=
+			8dy1xJVe1QIYc9CHSaos2IKVg+0=
 			</data>
 			<key>hash2</key>
 			<data>
-			hU0DWh7ATYZ5FnLcx0bdRgEWvgU1AsGZCWJ5qYgtfVA=
+			zZpWnmROvjsGT3TISmHgLQyN7nbKkxi4I8xYt6CshMA=
 			</data>
 		</dict>
 		<key>ios-arm64/NHNCloudLogger.framework/Modules/module.modulemap</key>
@@ -267,11 +267,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fngDKE6HCYYWM85PZnyZ9Nz2ZWk=
+			4xVaUgqz4HqiatwpInM+/iZoX7g=
 			</data>
 			<key>hash2</key>
 			<data>
-			KR+NjVokOuqAj+Sc1FsEDSZ1ORbfUxGkkwenqrWbQYM=
+			YEcs1aMKtyBd0aFXdJG/jxaPnMcUGIr59IvekPCAE0E=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/Headers/NHNCloudInstanceLogger.h</key>
@@ -388,11 +388,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EQv4TFrAYtAzL8qz9qcFwPndZCY=
+			jYEm/Bk7CbpdTMBj96Iadn4wptM=
 			</data>
 			<key>hash2</key>
 			<data>
-			zatXJq1K1FSv9/7ogMxGuvLpQj5NcoM6almLCkD6LnA=
+			p10OSYfiFsC3gILsuyEVaW52pSH6iMEK+2h5AAuG4PQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/Modules/module.modulemap</key>
@@ -410,22 +410,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uGl4RUhwTTR7yhjmMMrRrvXr2+U=
+			ndAVZPQwz2yh0ivwbk9lVvfbdu4=
 			</data>
 			<key>hash2</key>
 			<data>
-			kFNitCtH4xdcg/zrEbvVhEEo9aCz0hZdbJ5hKp2FW7A=
+			m826V99AraQpg6WxOg+3MTRwofp1q8f7tKPgBZZA45A=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8Mi/YhD0k6qezmitusQWUeFf2cQ=
+			6YY4HqXsoTIO/RJ/J9kk1dxDJnY=
 			</data>
 			<key>hash2</key>
 			<data>
-			r/QsvvDa3Ezl74EsXZjudYN1ZkA6A27/0FUBpakJslM=
+			nEj1U2bJ1tPSJF0ciT6dayLjKjA8d5Vu3adkN82kjo8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeRequirements</key>
@@ -443,22 +443,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ub2t6rZYU8CcsOcTF0/inE7/WnM=
+			TnWX48VUK/L+fqCudvOCWoyA+GI=
 			</data>
 			<key>hash2</key>
 			<data>
-			YHAucJYDSP/WJOmMczI/6lO1IHbQ+NN7UuEm15yloo0=
+			WzggZQMsjPMUKv8ARGlFEiJzSP26pHuJZKiQuLZibts=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lO6iwEpgxPUbdMs9t/ZDjVowJ+Y=
+			x43RUocXYC2LPq8R1NNv8G5gec8=
 			</data>
 			<key>hash2</key>
 			<data>
-			KWkh/afyJ3SQmd0Q5YIFS+eD1xpWDC+NUZKFO7rl+wQ=
+			YC0BVw5KK6cyadbEflTXFOdmIoQ4ahRnXI3DjRnULJ0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeSignature</key>
