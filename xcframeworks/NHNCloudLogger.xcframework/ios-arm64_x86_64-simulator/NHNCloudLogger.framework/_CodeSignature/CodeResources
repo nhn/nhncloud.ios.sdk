@@ -46,11 +46,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jYEm/Bk7CbpdTMBj96Iadn4wptM=
+		dAKxa9KNDlwpVEMyY3yMR2T1mGE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		0t+O4pZcctLRUm6U3i8T/s37QYg=
+		Swa8vk4FDQFRdRzk3+778lrCakU=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		9oJtDbuxIjJOB6BxAjoz3g+n5gE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -169,11 +173,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0t+O4pZcctLRUm6U3i8T/s37QYg=
+			Swa8vk4FDQFRdRzk3+778lrCakU=
 			</data>
 			<key>hash2</key>
 			<data>
-			n/UtR07BQqwnJJrPw9MFFZP9QbBeZiTy5m/g/cgxxYQ=
+			YajPKXglOUDwcM3YS1h538FWzUTCCyFe7Xprb5rfauM=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9oJtDbuxIjJOB6BxAjoz3g+n5gE=
+			</data>
+			<key>hash2</key>
+			<data>
+			5/6igFyIkL5y/lRKg6aE5f+aGANrRnm+ErF2UVzt3BQ=
 			</data>
 		</dict>
 	</dict>

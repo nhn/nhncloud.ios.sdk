@@ -38,15 +38,19 @@
 		</data>
 		<key>ios-arm64/NHNCloudIAP.framework/Info.plist</key>
 		<data>
-		GNENz+sM3dJmKcGmumKOuEanxXY=
+		HhWBc5X9e/x2ISGuDpT2GCGVnVc=
 		</data>
 		<key>ios-arm64/NHNCloudIAP.framework/Modules/module.modulemap</key>
 		<data>
-		3/wCAz1VL6EyTKwRwJfHk9Hc5qE=
+		w3HFC5h8nmNlboS6Dxuy+dybxeo=
 		</data>
 		<key>ios-arm64/NHNCloudIAP.framework/NHNCloudIAP</key>
 		<data>
-		VMa4mb7/uWaEErgl/Pf1jsdotUs=
+		I6tZR+m+43/g5hoLSFOFxoJDe8M=
+		</data>
+		<key>ios-arm64/NHNCloudIAP.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		9oJtDbuxIjJOB6BxAjoz3g+n5gE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/Headers/NHNCloudIAP+SDK.h</key>
 		<data>
@@ -82,19 +86,23 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/Info.plist</key>
 		<data>
-		dnlvnysi2UeLxNV8wiY6+DjonOs=
+		c69Kr/ha8yhIEWEyzyuV1IpGz1A=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/Modules/module.modulemap</key>
 		<data>
-		3/wCAz1VL6EyTKwRwJfHk9Hc5qE=
+		w3HFC5h8nmNlboS6Dxuy+dybxeo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/NHNCloudIAP</key>
 		<data>
-		vFAGpPrj7jzaVWveZLpPYsLv7OU=
+		WBsjyBS/qOCbodOIqLNCwh0Kj1Q=
+		</data>
+		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		9oJtDbuxIjJOB6BxAjoz3g+n5gE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		k33YCURruPgAazY6XVqkuqJ2ZDs=
+		KApu3rVIUksuEMEmIoUEVc6jQQg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -102,11 +110,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		6JpLKL9n7oAOFWQdPqCd9PEZ47E=
+		FDrX/Zz03GsdF3qCLufcegahNQ0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/_CodeSignature/CodeResources</key>
 		<data>
-		4Fgzwyfs4hdgzMDOkb4WuXprFYg=
+		VgLqK2GpFD4iwZDKq6v5BjMB8AE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -207,33 +215,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GNENz+sM3dJmKcGmumKOuEanxXY=
+			HhWBc5X9e/x2ISGuDpT2GCGVnVc=
 			</data>
 			<key>hash2</key>
 			<data>
-			pQ1tgo6lOHDtMbT13s3FPySoovfKkOOxHXjQLfnCTms=
+			yWu3Si9CbcOxW4k90JGsg75dzEgjvwq/qrJcSwNMMxw=
 			</data>
 		</dict>
 		<key>ios-arm64/NHNCloudIAP.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3/wCAz1VL6EyTKwRwJfHk9Hc5qE=
+			w3HFC5h8nmNlboS6Dxuy+dybxeo=
 			</data>
 			<key>hash2</key>
 			<data>
-			BVyjJQEV+/t3jTX1VmPw+7ZG5aQd3ZX0tnfd/4II9p4=
+			W+WZeBrPEEzhLDDKseaZ6Qw69MXdRhnVfZJyvHRga0U=
 			</data>
 		</dict>
 		<key>ios-arm64/NHNCloudIAP.framework/NHNCloudIAP</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VMa4mb7/uWaEErgl/Pf1jsdotUs=
+			I6tZR+m+43/g5hoLSFOFxoJDe8M=
 			</data>
 			<key>hash2</key>
 			<data>
-			Us+X21pyUtM/4p8slrQsw3/PSQDXZMErr0XhaeVCBNw=
+			OEUzxvGHLa2CVnlxg3X2drDnl+5RFyjm8dbvzbOvPA0=
+			</data>
+		</dict>
+		<key>ios-arm64/NHNCloudIAP.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9oJtDbuxIjJOB6BxAjoz3g+n5gE=
+			</data>
+			<key>hash2</key>
+			<data>
+			5/6igFyIkL5y/lRKg6aE5f+aGANrRnm+ErF2UVzt3BQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/Headers/NHNCloudIAP+SDK.h</key>
@@ -328,44 +347,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dnlvnysi2UeLxNV8wiY6+DjonOs=
+			c69Kr/ha8yhIEWEyzyuV1IpGz1A=
 			</data>
 			<key>hash2</key>
 			<data>
-			HFx1hLfMJsdczCIgzUM3uPT82EACB5S68MK8uRjOI+s=
+			NFlHqTqKFtrEEWxf+YwahHj3KH7+UYEPjqC8v2IngWg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3/wCAz1VL6EyTKwRwJfHk9Hc5qE=
+			w3HFC5h8nmNlboS6Dxuy+dybxeo=
 			</data>
 			<key>hash2</key>
 			<data>
-			BVyjJQEV+/t3jTX1VmPw+7ZG5aQd3ZX0tnfd/4II9p4=
+			W+WZeBrPEEzhLDDKseaZ6Qw69MXdRhnVfZJyvHRga0U=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/NHNCloudIAP</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vFAGpPrj7jzaVWveZLpPYsLv7OU=
+			WBsjyBS/qOCbodOIqLNCwh0Kj1Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zc2IY1nzwFZ+eqxfLacgNbywSU0ZUz6O2ohE0m/cumY=
+			TPLnxc63eseLp7pCnMv8nEiS2b9NoIsuDJ1jiqd7Rz8=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9oJtDbuxIjJOB6BxAjoz3g+n5gE=
+			</data>
+			<key>hash2</key>
+			<data>
+			5/6igFyIkL5y/lRKg6aE5f+aGANrRnm+ErF2UVzt3BQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k33YCURruPgAazY6XVqkuqJ2ZDs=
+			KApu3rVIUksuEMEmIoUEVc6jQQg=
 			</data>
 			<key>hash2</key>
 			<data>
-			JKeakzM1onK+xoU5Y00BgAwErNTGybIonqZU11/9KYc=
+			R96OQJs41m5Y2VM0Xdo7jfanuXDRiDW1Y5A1BKqd09I=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/_CodeSignature/CodeRequirements</key>
@@ -383,22 +413,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6JpLKL9n7oAOFWQdPqCd9PEZ47E=
+			FDrX/Zz03GsdF3qCLufcegahNQ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			pfzwhF1C0yid9XFnsIaqfVA82tpu8qlj17SO4fh9hqA=
+			Rek4CbBScqCrMQ3Y6/f/mjZ5n1qb4pVEyzxB4pb9WO0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4Fgzwyfs4hdgzMDOkb4WuXprFYg=
+			VgLqK2GpFD4iwZDKq6v5BjMB8AE=
 			</data>
 			<key>hash2</key>
 			<data>
-			bClEAqZ7bE/Y3mSmb9Bhl0gw8h12aH0a/yjmnxXvtZk=
+			JA3VDqwvEKml5Rwu27nRwiHBSuK4LHNfipU9PBhAb6U=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudIAP.framework/_CodeSignature/CodeSignature</key>

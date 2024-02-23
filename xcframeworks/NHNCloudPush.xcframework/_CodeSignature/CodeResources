@@ -74,7 +74,7 @@
 		</data>
 		<key>ios-arm64/NHNCloudPush.framework/Info.plist</key>
 		<data>
-		wIpaa2q1rs3FK6mgboGRKzejaVA=
+		U9xmSmaJyybHvyUZuQNBXr7HWA4=
 		</data>
 		<key>ios-arm64/NHNCloudPush.framework/Modules/module.modulemap</key>
 		<data>
@@ -82,7 +82,11 @@
 		</data>
 		<key>ios-arm64/NHNCloudPush.framework/NHNCloudPush</key>
 		<data>
-		hfL0Vln4M7nO6Pg00g0g8IxKlJA=
+		oWVWIp61kxl0lVEj2GxmsgQtRIc=
+		</data>
+		<key>ios-arm64/NHNCloudPush.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		9oJtDbuxIjJOB6BxAjoz3g+n5gE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/Headers/NHNCloudNotificationOptions.h</key>
 		<data>
@@ -154,7 +158,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/Info.plist</key>
 		<data>
-		nuHLwmaCeJxMsrnQNepe8dK7qUs=
+		ntGuDp9wJSHH2rMa2NBF1ihN6KQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/Modules/module.modulemap</key>
 		<data>
@@ -162,11 +166,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/NHNCloudPush</key>
 		<data>
-		cIRoNxSyCG997tmxaX2ohEqOmYc=
+		dzHV7P6RRhbuT0xUp3+NxYI+diU=
+		</data>
+		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		9oJtDbuxIjJOB6BxAjoz3g+n5gE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		eKfTagA4bYbge6V++WuSqSh7PeE=
+		Yb5JIOmVFwEU2gvYCezL1Ec3tjw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -174,11 +182,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		vNNe+JxIzqkYLV4LobDQA3HCPuQ=
+		JuK7Ny8pXk4FCQb4vxHNa6WN98g=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/_CodeSignature/CodeResources</key>
 		<data>
-		BW7ceMe2ocFUwRGQl3E/BXzDF/c=
+		0Knri0ph5QmK+dHqrnBr+1WZPHw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -378,11 +386,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wIpaa2q1rs3FK6mgboGRKzejaVA=
+			U9xmSmaJyybHvyUZuQNBXr7HWA4=
 			</data>
 			<key>hash2</key>
 			<data>
-			hhqZc0K85jHST3MVZXAYrz/doa/hrCAeUAL8GYf/8oM=
+			ELrJfkspiy+t9uL34WR6Dage0WUcBRwc3rD+pVmKKaE=
 			</data>
 		</dict>
 		<key>ios-arm64/NHNCloudPush.framework/Modules/module.modulemap</key>
@@ -400,11 +408,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hfL0Vln4M7nO6Pg00g0g8IxKlJA=
+			oWVWIp61kxl0lVEj2GxmsgQtRIc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hu4ZvBojfORjRXkzjz0keZkyZG+olcf5Bvul50N8n/U=
+			1ZKysJZIIIYQ+KY7nGpgSKMHBsHyNAgc3/pjEp+E7Xk=
+			</data>
+		</dict>
+		<key>ios-arm64/NHNCloudPush.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9oJtDbuxIjJOB6BxAjoz3g+n5gE=
+			</data>
+			<key>hash2</key>
+			<data>
+			5/6igFyIkL5y/lRKg6aE5f+aGANrRnm+ErF2UVzt3BQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/Headers/NHNCloudNotificationOptions.h</key>
@@ -598,11 +617,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nuHLwmaCeJxMsrnQNepe8dK7qUs=
+			ntGuDp9wJSHH2rMa2NBF1ihN6KQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZmOMjxyQarebGCNt40FVAmR5JslsIOpqR/LKyvTOQkk=
+			lxhVIAVIEsA8pFIjAu3xHL6mNj8gvSSdv6lPLDDsRsI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/Modules/module.modulemap</key>
@@ -620,22 +639,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cIRoNxSyCG997tmxaX2ohEqOmYc=
+			dzHV7P6RRhbuT0xUp3+NxYI+diU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Mgh7upzoAZddz/BOIF8Q4s3/9vmQwU5K7Rlt/UFtmxI=
+			hJvWAwT+8FG5b/BJuvzhuyzBd/BDjYn1lYphineq6KA=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9oJtDbuxIjJOB6BxAjoz3g+n5gE=
+			</data>
+			<key>hash2</key>
+			<data>
+			5/6igFyIkL5y/lRKg6aE5f+aGANrRnm+ErF2UVzt3BQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eKfTagA4bYbge6V++WuSqSh7PeE=
+			Yb5JIOmVFwEU2gvYCezL1Ec3tjw=
 			</data>
 			<key>hash2</key>
 			<data>
-			p0vsRjLciEJdIKXc0KemT8bG3GOs5wDpqe8Zy19f8QI=
+			L50ufbFf/dkGO+GifDFLbtNWO/eNc9MBrT2eDK0wh2o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/_CodeSignature/CodeRequirements</key>
@@ -653,22 +683,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vNNe+JxIzqkYLV4LobDQA3HCPuQ=
+			JuK7Ny8pXk4FCQb4vxHNa6WN98g=
 			</data>
 			<key>hash2</key>
 			<data>
-			6HpLTLWKZl+kC+1i7BpFuE1QHp3E9RKiow2r0F5yu74=
+			/zucKaiq0OfqGDZf5JsxQr9VKszXHMsxjY8N5aYmDu8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BW7ceMe2ocFUwRGQl3E/BXzDF/c=
+			0Knri0ph5QmK+dHqrnBr+1WZPHw=
 			</data>
 			<key>hash2</key>
 			<data>
-			TpmGoOO20QCdBClFLSnMpQ8qS5Wnqb6haJKXN3ddkdU=
+			ZGuHjF9jxJpKITueuu66ckXNOMN1FTSFFiOymr7mtl8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudPush.framework/_CodeSignature/CodeSignature</key>

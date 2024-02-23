@@ -46,15 +46,19 @@
 		</data>
 		<key>ios-arm64/NHNCloudLogger.framework/Info.plist</key>
 		<data>
-		8dy1xJVe1QIYc9CHSaos2IKVg+0=
+		1I0BUI6FFByLhWZIuh6mPj0Ho9s=
 		</data>
 		<key>ios-arm64/NHNCloudLogger.framework/Modules/module.modulemap</key>
 		<data>
-		0t+O4pZcctLRUm6U3i8T/s37QYg=
+		Swa8vk4FDQFRdRzk3+778lrCakU=
 		</data>
 		<key>ios-arm64/NHNCloudLogger.framework/NHNCloudLogger</key>
 		<data>
-		4xVaUgqz4HqiatwpInM+/iZoX7g=
+		r4CsLdMDn0GgmsGYsiLVpcKG3O0=
+		</data>
+		<key>ios-arm64/NHNCloudLogger.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		9oJtDbuxIjJOB6BxAjoz3g+n5gE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/Headers/NHNCloudInstanceLogger.h</key>
 		<data>
@@ -98,19 +102,23 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/Info.plist</key>
 		<data>
-		jYEm/Bk7CbpdTMBj96Iadn4wptM=
+		dAKxa9KNDlwpVEMyY3yMR2T1mGE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/Modules/module.modulemap</key>
 		<data>
-		0t+O4pZcctLRUm6U3i8T/s37QYg=
+		Swa8vk4FDQFRdRzk3+778lrCakU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/NHNCloudLogger</key>
 		<data>
-		ndAVZPQwz2yh0ivwbk9lVvfbdu4=
+		NrhYxaXK+eA5kuJRRhVahNB28U4=
+		</data>
+		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		9oJtDbuxIjJOB6BxAjoz3g+n5gE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		6YY4HqXsoTIO/RJ/J9kk1dxDJnY=
+		mRNyfmDGLM0Fytf7KnpAWaQtf30=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -118,11 +126,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		TnWX48VUK/L+fqCudvOCWoyA+GI=
+		WrLqEn1TvOwfWuUnhBjrrgQUumk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeResources</key>
 		<data>
-		x43RUocXYC2LPq8R1NNv8G5gec8=
+		G/Ym/exuVwPJr6UkmdoEWBj1G+o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -245,33 +253,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8dy1xJVe1QIYc9CHSaos2IKVg+0=
+			1I0BUI6FFByLhWZIuh6mPj0Ho9s=
 			</data>
 			<key>hash2</key>
 			<data>
-			zZpWnmROvjsGT3TISmHgLQyN7nbKkxi4I8xYt6CshMA=
+			UmHYPZQEsxpV94ZgkbIBUMFrymLv/9PGaEKlnB9l60s=
 			</data>
 		</dict>
 		<key>ios-arm64/NHNCloudLogger.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0t+O4pZcctLRUm6U3i8T/s37QYg=
+			Swa8vk4FDQFRdRzk3+778lrCakU=
 			</data>
 			<key>hash2</key>
 			<data>
-			n/UtR07BQqwnJJrPw9MFFZP9QbBeZiTy5m/g/cgxxYQ=
+			YajPKXglOUDwcM3YS1h538FWzUTCCyFe7Xprb5rfauM=
 			</data>
 		</dict>
 		<key>ios-arm64/NHNCloudLogger.framework/NHNCloudLogger</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4xVaUgqz4HqiatwpInM+/iZoX7g=
+			r4CsLdMDn0GgmsGYsiLVpcKG3O0=
 			</data>
 			<key>hash2</key>
 			<data>
-			YEcs1aMKtyBd0aFXdJG/jxaPnMcUGIr59IvekPCAE0E=
+			ZK1VW0Z8JORTwqwVMWpaNjD923zKtrIZ7M2bFtep8HQ=
+			</data>
+		</dict>
+		<key>ios-arm64/NHNCloudLogger.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9oJtDbuxIjJOB6BxAjoz3g+n5gE=
+			</data>
+			<key>hash2</key>
+			<data>
+			5/6igFyIkL5y/lRKg6aE5f+aGANrRnm+ErF2UVzt3BQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/Headers/NHNCloudInstanceLogger.h</key>
@@ -388,44 +407,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jYEm/Bk7CbpdTMBj96Iadn4wptM=
+			dAKxa9KNDlwpVEMyY3yMR2T1mGE=
 			</data>
 			<key>hash2</key>
 			<data>
-			p10OSYfiFsC3gILsuyEVaW52pSH6iMEK+2h5AAuG4PQ=
+			DNkdBZ97a7A08UzUIxSRVn+XBoLWw/kl+tdUgTOq5y4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0t+O4pZcctLRUm6U3i8T/s37QYg=
+			Swa8vk4FDQFRdRzk3+778lrCakU=
 			</data>
 			<key>hash2</key>
 			<data>
-			n/UtR07BQqwnJJrPw9MFFZP9QbBeZiTy5m/g/cgxxYQ=
+			YajPKXglOUDwcM3YS1h538FWzUTCCyFe7Xprb5rfauM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/NHNCloudLogger</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ndAVZPQwz2yh0ivwbk9lVvfbdu4=
+			NrhYxaXK+eA5kuJRRhVahNB28U4=
 			</data>
 			<key>hash2</key>
 			<data>
-			m826V99AraQpg6WxOg+3MTRwofp1q8f7tKPgBZZA45A=
+			AegF2Pmiet2SFA1ORnuBxZ9Tmsg7rjtRshIbC9kRRWo=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9oJtDbuxIjJOB6BxAjoz3g+n5gE=
+			</data>
+			<key>hash2</key>
+			<data>
+			5/6igFyIkL5y/lRKg6aE5f+aGANrRnm+ErF2UVzt3BQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6YY4HqXsoTIO/RJ/J9kk1dxDJnY=
+			mRNyfmDGLM0Fytf7KnpAWaQtf30=
 			</data>
 			<key>hash2</key>
 			<data>
-			nEj1U2bJ1tPSJF0ciT6dayLjKjA8d5Vu3adkN82kjo8=
+			UxWyQ0CYVD7wDh26hZzHlinpFGkk867FRO9E6IIlvsc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeRequirements</key>
@@ -443,22 +473,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TnWX48VUK/L+fqCudvOCWoyA+GI=
+			WrLqEn1TvOwfWuUnhBjrrgQUumk=
 			</data>
 			<key>hash2</key>
 			<data>
-			WzggZQMsjPMUKv8ARGlFEiJzSP26pHuJZKiQuLZibts=
+			oQc5+TStG1abdZ7rhADgHkvZ5uyEeRomH0YEGESF9fo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x43RUocXYC2LPq8R1NNv8G5gec8=
+			G/Ym/exuVwPJr6UkmdoEWBj1G+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			YC0BVw5KK6cyadbEflTXFOdmIoQ4ahRnXI3DjRnULJ0=
+			pFxsbKlMGtJTv8SL/Pw6NITR97Xo25m0N713Ne856KE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudLogger.framework/_CodeSignature/CodeSignature</key>
