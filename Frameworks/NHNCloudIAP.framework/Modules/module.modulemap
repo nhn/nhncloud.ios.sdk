@@ -1,6 +1,6 @@
 framework module NHNCloudIAP {
   umbrella header "NHNCloudIAP.h"
-  export *
 
+  export *
   module * { export * }
 }

@@ -24,13 +24,9 @@
 		<data>
 		qDxXrs1/kvpNxKlaXTyckf/+8jA=
 		</data>
-		<key>Headers/NHNCloudCameraManager.h</key>
-		<data>
-		dDoETFNKIZaBw947+NZZegy7DGA=
-		</data>
 		<key>Headers/NHNCloudCommon.h</key>
 		<data>
-		k83lssAhaerg4hi5VycMolTo0DA=
+		GVhg/oFb+uFuSUf3rlIIkL176ew=
 		</data>
 		<key>Headers/NHNCloudDictionary.h</key>
 		<data>
@@ -98,11 +94,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WAy3WxiHB8HRZtfImiAth8WOfK0=
+		Hn41R25r/0vmG9KgRySKQXcidfM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		wE1JGYXMBeuU1RdPKJ3pwSHyqy0=
+		d/rlY0K6AryeOFSc3PZOVdduJd4=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -166,26 +162,15 @@
 			z2kJTdKqHh3JK2zW4qxdNoy8DGgpJJQHB6NBWYnH0r0=
 			</data>
 		</dict>
-		<key>Headers/NHNCloudCameraManager.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dDoETFNKIZaBw947+NZZegy7DGA=
-			</data>
-			<key>hash2</key>
-			<data>
-			QZ+pIT2Hu8Hnuaaz3qcAeH7Nvpi/+HwGnPiaIMol4uc=
-			</data>
-		</dict>
 		<key>Headers/NHNCloudCommon.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k83lssAhaerg4hi5VycMolTo0DA=
+			GVhg/oFb+uFuSUf3rlIIkL176ew=
 			</data>
 			<key>hash2</key>
 			<data>
-			fiAdAeX8mF0M7TvtzPmxzIWOZIZVo1ef6aRGQf7lksw=
+			kdSA6YYw+tz94IcdGfIl85QgUIfB31L9vM5N12lN+Tw=
 			</data>
 		</dict>
 		<key>Headers/NHNCloudDictionary.h</key>
@@ -368,11 +353,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wE1JGYXMBeuU1RdPKJ3pwSHyqy0=
+			d/rlY0K6AryeOFSc3PZOVdduJd4=
 			</data>
 			<key>hash2</key>
 			<data>
-			lyKwjx3Wmh61FP27AtnAu0MIjuIfvp71QygS0n9rcf0=
+			vGkTvHXmLeeGw05dEFfFf2BKGOulICxn4znlQ3h3hLA=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
