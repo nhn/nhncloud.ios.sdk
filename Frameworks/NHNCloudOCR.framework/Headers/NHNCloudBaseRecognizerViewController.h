@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)startRunningCamera;
 - (void)stopRunningCamera;
-- (BOOL)isRunnginCamera;
+- (BOOL)isRunningCamera;
 
 - (void)dismissViewController;
 - (void)dismissViewControllerWithCompletionHandler:(nullable void (^)(void))completionHandler;
