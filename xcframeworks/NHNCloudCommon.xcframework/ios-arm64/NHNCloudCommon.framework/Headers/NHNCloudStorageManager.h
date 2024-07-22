@@ -44,16 +44,14 @@
 
  @param array The array to save
  @param saveKey The identifying key to use when loading
- @param condition The condition to use for thread safety.
  @param fileName The name of the file to save
  @param removeArray Whether or not to delete the array after saving.
  */
+
 - (void)saveArrayToFile:(NSMutableArray *) array
                 saveKey:(NSString *)saveKey
-              condition:(NSCondition *)condition
                fileName:(NSString *)fileName
             removeArray:(BOOL)removeArray;
-
 
 /**
  Used to load the contents of a file into an array.
@@ -62,14 +60,13 @@
  @param arrayLimitSize The limit size of array
  @param fileName The name of the file to load
  @param saveKey The identifying key that was used to save.
- @param condition The condition to use for thread safety.
  @param removeFile Whether or not to delete the file after loading.
  */
+
 - (void)fileToMemory:(NSMutableArray *)array
       arrayLimitSize:(NSNumber *)arrayLimitSize
             fileName:(NSString *)fileName
-             saveKey:(NSString *)saveKey
-           condition:(NSCondition *)condition
+             saveKey:(NSString *)saveKey           
           removeFile:(BOOL)removeFile;
 
 

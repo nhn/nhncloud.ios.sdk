@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>ios-arm64_arm64e_armv7_armv7s/CrashReporter.framework/.DS_Store</key>
+		<data>
+		emFxXjHugFrwvvIEg0/a0kR4zHI=
+		</data>
 		<key>ios-arm64_arm64e_armv7_armv7s/CrashReporter.framework/CrashReporter</key>
 		<data>
 		UtrI6qKvtPj0ierzTCoKNBe/iuU=
@@ -106,11 +110,31 @@
 		</data>
 		<key>ios-arm64_arm64e_armv7_armv7s/CrashReporter.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		89B/nopzC25klfODJOjqtfx6YfE=
+		Lbb8ktjwLqGwBIJ7DNeMFBJpjZw=
 		</data>
-		<key>ios-arm64_i386_x86_64-simulator/.DS_Store</key>
+		<key>ios-arm64_arm64e_armv7_armv7s/CrashReporter.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		3y++sUAKzaCQmjLBz2v0kvESHgc=
+		R/1tzjtGJ+nJEgbTcV6E/NeZjY4=
+		</data>
+		<key>ios-arm64_arm64e_armv7_armv7s/CrashReporter.framework/_CodeSignature/CodeRequirements</key>
+		<data>
+		7dm42kBX4Hi+qZDC5sHNCYYTlfA=
+		</data>
+		<key>ios-arm64_arm64e_armv7_armv7s/CrashReporter.framework/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		xZR5kvSq8krvj8xRqGEcROobnvw=
+		</data>
+		<key>ios-arm64_arm64e_armv7_armv7s/CrashReporter.framework/_CodeSignature/CodeResources</key>
+		<data>
+		Cx5iH9e1/oxUs+WzUTRYmNDZtQ0=
+		</data>
+		<key>ios-arm64_arm64e_armv7_armv7s/CrashReporter.framework/_CodeSignature/CodeSignature</key>
+		<data>
+		qiPT2d+9MIRccdmC/Ug+QoOQYpk=
+		</data>
+		<key>ios-arm64_i386_x86_64-simulator/CrashReporter.framework/.DS_Store</key>
+		<data>
+		04UWAp55mSGHh6QSdhkZsXnoLZo=
 		</data>
 		<key>ios-arm64_i386_x86_64-simulator/CrashReporter.framework/CrashReporter</key>
 		<data>
@@ -214,7 +238,7 @@
 		</data>
 		<key>ios-arm64_i386_x86_64-simulator/CrashReporter.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		89B/nopzC25klfODJOjqtfx6YfE=
+		Lbb8ktjwLqGwBIJ7DNeMFBJpjZw=
 		</data>
 		<key>ios-arm64_i386_x86_64-simulator/CrashReporter.framework/_CodeSignature/CodeDirectory</key>
 		<data>
@@ -235,6 +259,10 @@
 		<key>ios-arm64_i386_x86_64-simulator/CrashReporter.framework/_CodeSignature/CodeSignature</key>
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/CrashReporter.framework/.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/CrashReporter.framework/CrashReporter</key>
 		<data>
@@ -334,7 +362,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/CrashReporter.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		89B/nopzC25klfODJOjqtfx6YfE=
+		Lbb8ktjwLqGwBIJ7DNeMFBJpjZw=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/CrashReporter.framework/Resources/Info.plist</key>
 		<data>
@@ -638,7 +666,7 @@
 		</data>
 		<key>macos-arm64_x86_64/CrashReporter.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		89B/nopzC25klfODJOjqtfx6YfE=
+		Lbb8ktjwLqGwBIJ7DNeMFBJpjZw=
 		</data>
 		<key>macos-arm64_x86_64/CrashReporter.framework/Resources/Info.plist</key>
 		<data>
@@ -852,6 +880,10 @@
 		<data>
 		WS8Ot6wmU9C7DBBJ7v5GpVXh1FU=
 		</data>
+		<key>tvos-arm64/CrashReporter.framework/.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
+		</data>
 		<key>tvos-arm64/CrashReporter.framework/CrashReporter</key>
 		<data>
 		vSjY3zjSw0b8B0UdFcILXGdNSwU=
@@ -954,7 +986,31 @@
 		</data>
 		<key>tvos-arm64/CrashReporter.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		89B/nopzC25klfODJOjqtfx6YfE=
+		Lbb8ktjwLqGwBIJ7DNeMFBJpjZw=
+		</data>
+		<key>tvos-arm64/CrashReporter.framework/_CodeSignature/CodeDirectory</key>
+		<data>
+		P6Zr6jrlnz0mZkgkxLeH6zI+2JQ=
+		</data>
+		<key>tvos-arm64/CrashReporter.framework/_CodeSignature/CodeRequirements</key>
+		<data>
+		7dm42kBX4Hi+qZDC5sHNCYYTlfA=
+		</data>
+		<key>tvos-arm64/CrashReporter.framework/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		3/vjPK8IoFvgbzx9wA6K1bgZwjk=
+		</data>
+		<key>tvos-arm64/CrashReporter.framework/_CodeSignature/CodeResources</key>
+		<data>
+		NnAIpty3srH9BOz+wcOYjEqKRH8=
+		</data>
+		<key>tvos-arm64/CrashReporter.framework/_CodeSignature/CodeSignature</key>
+		<data>
+		iNzGcsTTW2r+QZLsljA7Nf0+yOM=
+		</data>
+		<key>tvos-x86_64-simulator/CrashReporter.framework/.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
 		</data>
 		<key>tvos-x86_64-simulator/CrashReporter.framework/CrashReporter</key>
 		<data>
@@ -1058,7 +1114,7 @@
 		</data>
 		<key>tvos-x86_64-simulator/CrashReporter.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		89B/nopzC25klfODJOjqtfx6YfE=
+		Lbb8ktjwLqGwBIJ7DNeMFBJpjZw=
 		</data>
 		<key>tvos-x86_64-simulator/CrashReporter.framework/_CodeSignature/CodeDirectory</key>
 		<data>
@@ -1362,11 +1418,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			89B/nopzC25klfODJOjqtfx6YfE=
+			Lbb8ktjwLqGwBIJ7DNeMFBJpjZw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZcpPy3d5I7zxz9t2rNKw/f2J+JcT0pbaRLsUlPf2Z9k=
+			UkuLBg2k83sfHNf3x5Ac178B40gOYfd7cl5qOkZLgms=
+			</data>
+		</dict>
+		<key>ios-arm64_arm64e_armv7_armv7s/CrashReporter.framework/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			R/1tzjtGJ+nJEgbTcV6E/NeZjY4=
+			</data>
+			<key>hash2</key>
+			<data>
+			mr/a6cKl92B4ZzeQ88qnWSj3RabVroWOAXDxSk/FgFs=
+			</data>
+		</dict>
+		<key>ios-arm64_arm64e_armv7_armv7s/CrashReporter.framework/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7dm42kBX4Hi+qZDC5sHNCYYTlfA=
+			</data>
+			<key>hash2</key>
+			<data>
+			/3QlRBzSwxNXcbct/1U5WoVv5oYxiixs5DmOE8+09P4=
+			</data>
+		</dict>
+		<key>ios-arm64_arm64e_armv7_armv7s/CrashReporter.framework/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xZR5kvSq8krvj8xRqGEcROobnvw=
+			</data>
+			<key>hash2</key>
+			<data>
+			a0HUgAfkWLMHvGxVUAuMKBVOiJiC0tnB4JGp2zcGZVg=
+			</data>
+		</dict>
+		<key>ios-arm64_arm64e_armv7_armv7s/CrashReporter.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Cx5iH9e1/oxUs+WzUTRYmNDZtQ0=
+			</data>
+			<key>hash2</key>
+			<data>
+			eoSQtyfijyy4jcNbudC4UkV+gM+rO2+QhOkAExni92g=
+			</data>
+		</dict>
+		<key>ios-arm64_arm64e_armv7_armv7s/CrashReporter.framework/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qiPT2d+9MIRccdmC/Ug+QoOQYpk=
+			</data>
+			<key>hash2</key>
+			<data>
+			q7yekYJjwqVc3IbIvcSSpzCpogguCvaSzfA6MzHxM/s=
 			</data>
 		</dict>
 		<key>ios-arm64_i386_x86_64-simulator/CrashReporter.framework/CrashReporter</key>
@@ -1648,11 +1759,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			89B/nopzC25klfODJOjqtfx6YfE=
+			Lbb8ktjwLqGwBIJ7DNeMFBJpjZw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZcpPy3d5I7zxz9t2rNKw/f2J+JcT0pbaRLsUlPf2Z9k=
+			UkuLBg2k83sfHNf3x5Ac178B40gOYfd7cl5qOkZLgms=
 			</data>
 		</dict>
 		<key>ios-arm64_i386_x86_64-simulator/CrashReporter.framework/_CodeSignature/CodeDirectory</key>
@@ -1978,11 +2089,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			89B/nopzC25klfODJOjqtfx6YfE=
+			Lbb8ktjwLqGwBIJ7DNeMFBJpjZw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZcpPy3d5I7zxz9t2rNKw/f2J+JcT0pbaRLsUlPf2Z9k=
+			UkuLBg2k83sfHNf3x5Ac178B40gOYfd7cl5qOkZLgms=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/CrashReporter.framework/Resources/Info.plist</key>
@@ -2814,11 +2925,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			89B/nopzC25klfODJOjqtfx6YfE=
+			Lbb8ktjwLqGwBIJ7DNeMFBJpjZw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZcpPy3d5I7zxz9t2rNKw/f2J+JcT0pbaRLsUlPf2Z9k=
+			UkuLBg2k83sfHNf3x5Ac178B40gOYfd7cl5qOkZLgms=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/CrashReporter.framework/Resources/Info.plist</key>
@@ -3683,11 +3794,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			89B/nopzC25klfODJOjqtfx6YfE=
+			Lbb8ktjwLqGwBIJ7DNeMFBJpjZw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZcpPy3d5I7zxz9t2rNKw/f2J+JcT0pbaRLsUlPf2Z9k=
+			UkuLBg2k83sfHNf3x5Ac178B40gOYfd7cl5qOkZLgms=
+			</data>
+		</dict>
+		<key>tvos-arm64/CrashReporter.framework/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P6Zr6jrlnz0mZkgkxLeH6zI+2JQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			pPkZdo4Ea0EqLLdO3HshG0VYaYMf+f2vCV/Pu9Q7duU=
+			</data>
+		</dict>
+		<key>tvos-arm64/CrashReporter.framework/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7dm42kBX4Hi+qZDC5sHNCYYTlfA=
+			</data>
+			<key>hash2</key>
+			<data>
+			/3QlRBzSwxNXcbct/1U5WoVv5oYxiixs5DmOE8+09P4=
+			</data>
+		</dict>
+		<key>tvos-arm64/CrashReporter.framework/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3/vjPK8IoFvgbzx9wA6K1bgZwjk=
+			</data>
+			<key>hash2</key>
+			<data>
+			H3KSW69CjW3FFSCh6zKK1JDZT/WIW5npnyrVS6daPaM=
+			</data>
+		</dict>
+		<key>tvos-arm64/CrashReporter.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NnAIpty3srH9BOz+wcOYjEqKRH8=
+			</data>
+			<key>hash2</key>
+			<data>
+			iRanqvOFwMp2Ak3/def88gn7vHcD3FElsSSDBL1l1MA=
+			</data>
+		</dict>
+		<key>tvos-arm64/CrashReporter.framework/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iNzGcsTTW2r+QZLsljA7Nf0+yOM=
+			</data>
+			<key>hash2</key>
+			<data>
+			d9YxRGijJDPs810NjWdtXzNoOvBb5AhwL1Q/WpXnlYQ=
 			</data>
 		</dict>
 		<key>tvos-x86_64-simulator/CrashReporter.framework/CrashReporter</key>
@@ -3969,11 +4135,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			89B/nopzC25klfODJOjqtfx6YfE=
+			Lbb8ktjwLqGwBIJ7DNeMFBJpjZw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZcpPy3d5I7zxz9t2rNKw/f2J+JcT0pbaRLsUlPf2Z9k=
+			UkuLBg2k83sfHNf3x5Ac178B40gOYfd7cl5qOkZLgms=
 			</data>
 		</dict>
 		<key>tvos-x86_64-simulator/CrashReporter.framework/_CodeSignature/CodeDirectory</key>

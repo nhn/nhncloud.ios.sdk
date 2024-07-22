@@ -104,6 +104,10 @@ typedef NS_ENUM(NSInteger, NHNCloudHttpVerbType) {
  */
 - (void)setDataBodyParameter:(NSData *)parameter;
 
+
+- (void)setUploadData:(NSData *)data;
+- (NSData *)uploadData;
+
 /// ---------------------------------
 /// @name Networking
 /// ---------------------------------
@@ -149,7 +153,7 @@ typedef NS_ENUM(NSInteger, NHNCloudHttpVerbType) {
  
  @param aBlock The block to execute after request is finished
  */
-- (void)uploadPostDataBodyRequestWithCompletionBlock:(void (^)(NSData *aResponseData, NSDictionary *aResponseBody, NSError *aError))aBlock;
+- (void)uploadDataBodyRequestWithCompletionBlock:(void (^)(NSData *aResponseData, NSDictionary *aResponseBody, NSError *aError))aBlock;
 
 /**
  Sends the get request with encoded data synchronously.
