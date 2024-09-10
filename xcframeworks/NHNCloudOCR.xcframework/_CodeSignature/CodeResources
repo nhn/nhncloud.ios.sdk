@@ -50,7 +50,7 @@
 		</data>
 		<key>ios-arm64/NHNCloudOCR.framework/Info.plist</key>
 		<data>
-		YfaMgcjXxth/kWsflXJ7Z79r8UQ=
+		WMFaR9E7gtyPRA/g9Yfum0HwFiw=
 		</data>
 		<key>ios-arm64/NHNCloudOCR.framework/Modules/module.modulemap</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>ios-arm64/NHNCloudOCR.framework/NHNCloudOCR</key>
 		<data>
-		iRZdnS6/G1mgxetYvEfcqKWNI8M=
+		E7uxkfYAyyfZZJgHK5HQ06z8Uh4=
 		</data>
 		<key>ios-arm64/NHNCloudOCR.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudOCR.framework/Info.plist</key>
 		<data>
-		d/8Ju7CGFLvM5B0g1bFL9G8av3Q=
+		LSw+CS6lqrRmbU2xOOg59+6nQ68=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudOCR.framework/Modules/module.modulemap</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudOCR.framework/NHNCloudOCR</key>
 		<data>
-		1iRZCn5GEtqONuvsZf4Z7iQvcf4=
+		1qN6PaL/inHVPIQYj7SlGd8d14E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudOCR.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudOCR.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		L8GQ+2JOf10auT1yTannDLE4fcQ=
+		ZftikqCPhPU45jtqMfk92vjxh6s=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudOCR.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -134,11 +134,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudOCR.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		VQdsptvYMe+Cdl2k6g98eDaPU7Q=
+		KkLT52fmvl9J+W9d/X2Fd0GDG80=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudOCR.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Oj/iYDoDskqqaJ7JjjASIlStmyk=
+		ASq/C48gNPgsFoCPdVgbDgVxWSw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NHNCloudOCR.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -272,11 +272,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YfaMgcjXxth/kWsflXJ7Z79r8UQ=
+			WMFaR9E7gtyPRA/g9Yfum0HwFiw=
 			</data>
 			<key>hash2</key>
 			<data>
-			GmUb6/vkK5Nava99stzpBmAGfinjcJXJ5JfU75Vcnvs=
+			MZU/sIR2lhy73+gccVF7im+YWAOo5oLctQQTjhZHSVM=
 			</data>
 		</dict>
 		<key>ios-arm64/NHNCloudOCR.framework/Modules/module.modulemap</key>
@@ -294,11 +294,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iRZdnS6/G1mgxetYvEfcqKWNI8M=
+			E7uxkfYAyyfZZJgHK5HQ06z8Uh4=
 			</data>
 			<key>hash2</key>
 			<data>
-			aceJYwQN3W/E50N9Dz1FzOfEsouX8XX19O+HzFFmKl4=
+			IiN40d5n7YP5P0V3jEPTD+SB/eWd+EtupZsepqHSQBE=
 			</data>
 		</dict>
 		<key>ios-arm64/NHNCloudOCR.framework/PrivacyInfo.xcprivacy</key>
@@ -437,11 +437,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d/8Ju7CGFLvM5B0g1bFL9G8av3Q=
+			LSw+CS6lqrRmbU2xOOg59+6nQ68=
 			</data>
 			<key>hash2</key>
 			<data>
-			iwJG2rUkhizEst0KASFDr0a1i6VICHcUcG+A1IcTjWI=
+			Tdz8oenQ2Bvk6aFxELllqPy0s/fxPq6aEdwZB+Pi54A=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudOCR.framework/Modules/module.modulemap</key>
@@ -459,11 +459,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1iRZCn5GEtqONuvsZf4Z7iQvcf4=
+			1qN6PaL/inHVPIQYj7SlGd8d14E=
 			</data>
 			<key>hash2</key>
 			<data>
-			wAng86D3uQJ0SJfuSioKOBPBF2u8n9Py0n6LfM74zIA=
+			tx1UyUOyPfz7Cd7SL5GdDMaxlnrT+Ru8l4Gc9j8YRYk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudOCR.framework/PrivacyInfo.xcprivacy</key>
@@ -481,11 +481,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L8GQ+2JOf10auT1yTannDLE4fcQ=
+			ZftikqCPhPU45jtqMfk92vjxh6s=
 			</data>
 			<key>hash2</key>
 			<data>
-			38h2dDKF6LtxYceOzIAYAirun/SOALPIRgZ+I1ipBgQ=
+			QAzyndLbs+25YerXXvEtHjkAXj69WzqHDcsvl0qhocM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudOCR.framework/_CodeSignature/CodeRequirements</key>
@@ -503,22 +503,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VQdsptvYMe+Cdl2k6g98eDaPU7Q=
+			KkLT52fmvl9J+W9d/X2Fd0GDG80=
 			</data>
 			<key>hash2</key>
 			<data>
-			sC/hDgdLxbqthAL+HSIeWYOyCAbZCrcqlD/DU3CH/+c=
+			KCwTqHQocz8zkLySdN/eUy7B2LVb5cOX4oNOLWW9XTQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudOCR.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Oj/iYDoDskqqaJ7JjjASIlStmyk=
+			ASq/C48gNPgsFoCPdVgbDgVxWSw=
 			</data>
 			<key>hash2</key>
 			<data>
-			6LY+L3/iAZRTuyqjlSAd3t+jnMI3GJru1IqTMn2nAIU=
+			fVxOhOsusid6CyQ/gnHpTxms5I9igLF/mK1GdV4NAfo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NHNCloudOCR.framework/_CodeSignature/CodeSignature</key>
