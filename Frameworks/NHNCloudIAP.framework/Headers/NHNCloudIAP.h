@@ -14,6 +14,7 @@
 #import "NHNCloudProductsResponse.h"
 #import "NHNCloudPurchaseResult.h"
 #import "NHNCloudIAPError.h"
+#import "NHNCloudMobillConfig.h"
 
 //! Project version number for NHNCloudIAP.
 FOUNDATION_EXPORT double NHNCloudIAPVersionNumber;

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/NHNCloudIAP.h</key>
 		<data>
-		9ywpgY5g0eYb0VAQvTZ8L62eX9I=
+		nEyHDY2MJW5n3btSIAJWQgro/zg=
 		</data>
 		<key>Headers/NHNCloudIAPConfiguration.h</key>
 		<data>
@@ -23,6 +23,10 @@
 		<key>Headers/NHNCloudInAppPurchaseDelegate.h</key>
 		<data>
 		s0Up/3BX/JACnnYxqyerI8MqC10=
+		</data>
+		<key>Headers/NHNCloudMobillConfig.h</key>
+		<data>
+		D2+AhrCnMlF/unesBq8BU3+n+b4=
 		</data>
 		<key>Headers/NHNCloudProduct.h</key>
 		<data>
@@ -38,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WfjPX6xq38XxLsfS8vruJIJdeJk=
+		mWgzCGxWAyrMJHM9maP1zGOA3iM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -66,11 +70,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9ywpgY5g0eYb0VAQvTZ8L62eX9I=
+			nEyHDY2MJW5n3btSIAJWQgro/zg=
 			</data>
 			<key>hash2</key>
 			<data>
-			y6WELG9niVuS7YYOjCuw6IbSS1+rhTDfgcG/3gYmXmI=
+			weBOBWfX3mFbnpu8YwRIdpnw2K602yAYVxpXxFfYvsw=
 			</data>
 		</dict>
 		<key>Headers/NHNCloudIAPConfiguration.h</key>
@@ -104,6 +108,17 @@
 			<key>hash2</key>
 			<data>
 			DKRr980wYYqljEEB5dw7kfIHJ1qRD9t6IdEAuwdpmUA=
+			</data>
+		</dict>
+		<key>Headers/NHNCloudMobillConfig.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			D2+AhrCnMlF/unesBq8BU3+n+b4=
+			</data>
+			<key>hash2</key>
+			<data>
+			J6YzsxYzTbzGo3MQTAWK55i2ohOyUfX1uigvSBlmio4=
 			</data>
 		</dict>
 		<key>Headers/NHNCloudProduct.h</key>
