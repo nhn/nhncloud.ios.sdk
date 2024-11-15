@@ -250,6 +250,20 @@ Remove all user tag.
 + (void)removeAllUserTagWithCompletionHandler:(nullable void (^)(NSError * _Nullable error))completionHandler
 NS_SWIFT_NAME(removeAllUserTag(completion:));
 
+/**
+Set the custom deviceID.
+
+@param deviceID Set of deviceID.
+*/
++ (void)setDeviceID:(nullable NSString *)deviceID;
+
+/**
+Get the deviceID.
+
+Returns the deviceID.
+*/
++ (NSString *)deviceID;
+
 // SDK 버전 획득
 /**
  Gets the version of SDK.

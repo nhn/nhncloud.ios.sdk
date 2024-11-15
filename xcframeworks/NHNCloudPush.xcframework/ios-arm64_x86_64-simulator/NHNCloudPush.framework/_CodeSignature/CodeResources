@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/NHNCloudPush+SDK.h</key>
 		<data>
-		uQCZGU4tpN+oAXOUV2XeGHPQqP4=
+		doFymHJejGAkiqkfPkXVkCpUtvo=
 		</data>
 		<key>Headers/NHNCloudPush.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qLq9k/pJkdDZy7gqsAPjV7+1/hA=
+		iR1rSv5UCGc9lCHdKnNtE7cXDLA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -102,11 +102,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uQCZGU4tpN+oAXOUV2XeGHPQqP4=
+			doFymHJejGAkiqkfPkXVkCpUtvo=
 			</data>
 			<key>hash2</key>
 			<data>
-			s/98PZ0WTHMH2UfOTqMfwhdVlUqueNDb1DnvYZzXpDE=
+			38aAx9aKFBkbSLb4Nn+5GAp/0PwCzE1gBAvdB9yHt90=
 			</data>
 		</dict>
 		<key>Headers/NHNCloudPush.h</key>
