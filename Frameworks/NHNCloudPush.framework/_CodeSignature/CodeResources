@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/NHNCloudPushConfiguration.h</key>
 		<data>
-		iN7JGbOkOnFMZOLe72EeBqCmIs0=
+		N8LDmuVHP1VZaB32kscvvE/o3Is=
 		</data>
 		<key>Headers/NHNCloudPushError.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		81fw6/TiyludMUS/b9GTdKevypw=
+		D7aVRVpEJ8vFeA5+Wy7MD9ZCUNk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -146,11 +146,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iN7JGbOkOnFMZOLe72EeBqCmIs0=
+			N8LDmuVHP1VZaB32kscvvE/o3Is=
 			</data>
 			<key>hash2</key>
 			<data>
-			QqgZmR4Z6xxwFYYxDWk/w1dNmcfNA1a0nslnxalu5h0=
+			8kd1mpa+RS87/kN1YHuSZ1nZuvN06U0d55bYplIbGRs=
 			</data>
 		</dict>
 		<key>Headers/NHNCloudPushError.h</key>

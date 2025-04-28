@@ -11,10 +11,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSInteger, NHNCloudPushServiceType) {
+    NHNCloudPushServiceTypePush = 0,
+    NHNCloudPushServiceTypeNotificationHub = 1
+};
+
 /**
 # NHNCloudPushConfiguration
 
-A class that has configuration about push service required for initialization.
+A class that has configuration about push service (push, notification hub) required for initialization.
 */
 @interface NHNCloudPushConfiguration : NSObject <NSCoding, NSCopying>
 
@@ -22,11 +27,14 @@ A class that has configuration about push service required for initialization.
 /// @name Properties
 /// ---------------------------------
 
-/** The app key of push service in your nhn cloud console project. */
+/** The app key of push service (push, notification hub) in your nhn cloud console project. */
 @property (nonatomic, copy, readonly) NSString *appKey;
 
 /** The nhn cloud service zone. (Real or Alpha or Beta)  */
 @property (nonatomic) NHNCloudServiceZone serviceZone;
+
+/** The nhn cloud push service type (push, notification hub)  */
+@property (nonatomic) NHNCloudPushServiceType serviceType;
 
 /** Country code (ISO 3166-1 alpha-2, ISO 3166-1 alpha-3) used for localized time when sending reservation message. */
 @property (nonatomic, copy) NSString *countryCode;
@@ -49,9 +57,9 @@ A class that has configuration about push service required for initialization.
 /// ---------------------------------
 
 /**
- Initialize with push service app key.
- 
- @param appKey The app key of push service in your nhn cloud console project.
+ Initialize with push service (push, notification hub) app key.
+
+ @param appKey The app key of push service (push, notification hub) in your nhn cloud console project.
  @return The instance of NHNCloudPushConfiguration.
  */
 + (instancetype)configurationWithAppKey:(NSString *)appKey;
@@ -59,11 +67,30 @@ A class that has configuration about push service required for initialization.
 /**
  Initialize with push service app key.
 
- @param appKey The app key of push service in your nhn cloud console project.
+ @param appKey The app key of push service (push, notification hub) in your nhn cloud console project.
+ @param serviceType This is the type of push notification service (push, notification hub) of the nhn cloud console project.
+ @return The instance of NHNCloudPushConfiguration.
+ */
++ (instancetype)configurationWithAppKey:(NSString *)appKey serviceType:(NHNCloudPushServiceType)serviceType;
+
+/**
+ Initialize with push service app key.
+
+ @param appKey The app key of push service (push, notification hub) in your nhn cloud console project.
  @return The instance of NHNCloudPushConfiguration.
  */
 - (instancetype)initWithAppKey:(NSString *)appKey
 NS_SWIFT_NAME(init(appKey:));
+
+/**
+ Initialize with push service app key.
+
+ @param appKey The app key of push service (push, notification hub) in your nhn cloud console project.
+ @param serviceType This is the type of push notification service (push, notification hub) of the nhn cloud console project.
+ @return The instance of NHNCloudPushConfiguration.
+ */
+- (instancetype)initWithAppKey:(NSString *)appKey serviceType:(NHNCloudPushServiceType)serviceType
+NS_SWIFT_NAME(init(appKey:serviceType:));
 
 - (instancetype)init NS_UNAVAILABLE;
 
