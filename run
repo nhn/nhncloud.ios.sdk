@@ -22,6 +22,21 @@ case $key in
     shift
     shift
     ;;
+    -uak|--user-access-key-id)
+    USER_ACCESS_KEY_ID="$2"
+    shift
+    shift
+    ;;
+    -sak|--secret-access-key)
+    SECRET_ACCESS_KEY="$2"
+    shift
+    shift
+    ;;
+    -uat|--user-access-token)
+    USER_ACCESS_TOKEN="$2"
+    shift
+    shift
+    ;;
     *)
 esac
 done
@@ -48,14 +63,31 @@ fi
 echo "VERSION = ${MARKETING_VERSION}"
 
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-COMMAND_PATH="${DIR}/SymbolUploader "
 
-ARGUMENTS="--app-key ${APP_KEY} --project-version ${MARKETING_VERSION}  --service-zone ${SERVICE_ZONE} ${TARGET_BUILD_DIR}"
+ARGUMENTS=(--app-key "${APP_KEY}" --project-version "${MARKETING_VERSION}" --service-zone "${SERVICE_ZONE}")
 
-eval $COMMAND_PATH$ARGUMENTS
+if [ -n "${USER_ACCESS_KEY_ID}" ] ; then
+    ARGUMENTS+=(--user-access-key-id "${USER_ACCESS_KEY_ID}")
+fi
+if [ -n "${SECRET_ACCESS_KEY}" ] ; then
+    ARGUMENTS+=(--secret-access-key "${SECRET_ACCESS_KEY}")
+fi
+if [ -n "${USER_ACCESS_TOKEN}" ] ; then
+    ARGUMENTS+=(--user-access-token "${USER_ACCESS_TOKEN}")
+fi
+
+ARGUMENTS+=("${TARGET_BUILD_DIR}")
+
+"${DIR}/SymbolUploader" "${ARGUMENTS[@]}"
+
+# v3부터는 인증이 필요합니다. 아래 중 한 방식을 골라 복사해 사용하세요.
+#   방법 1) User Access Key: --user-access-key-id UAK --secret-access-key SAK
+#   방법 2) User Access Token: --user-access-token UAT
 
 # For Cocoapods
-#${PODS_ROOT}/NHNCloudSymbolUploader/nhncloud.ios.sdk-*/run --app-key LOG_N_CRASH_SEARCH_APPKEY
+#${PODS_ROOT}/NHNCloudSymbolUploader/nhncloud.ios.sdk-*/run --app-key LOG_N_CRASH_SEARCH_APPKEY --user-access-key-id USER_ACCESS_KEY_ID --secret-access-key SECRET_ACCESS_KEY
+#${PODS_ROOT}/NHNCloudSymbolUploader/nhncloud.ios.sdk-*/run --app-key LOG_N_CRASH_SEARCH_APPKEY --user-access-token USER_ACCESS_TOKEN
 
 # For SPM
-#${BUILD_DIR%Build/*}SourcePackages/checkouts/nhncloud.ios.sdk/run --app-key
+#${BUILD_DIR%Build/*}SourcePackages/checkouts/nhncloud.ios.sdk/run --app-key LOG_N_CRASH_SEARCH_APPKEY --user-access-key-id USER_ACCESS_KEY_ID --secret-access-key SECRET_ACCESS_KEY
+#${BUILD_DIR%Build/*}SourcePackages/checkouts/nhncloud.ios.sdk/run --app-key LOG_N_CRASH_SEARCH_APPKEY --user-access-token USER_ACCESS_TOKEN
