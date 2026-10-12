@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -62,9 +62,9 @@
 		2D4B5A3B2925D30C004F7AA0 /* SampleUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUtil.swift; sourceTree = "<group>"; };
 		2D4B5A3F2925F467004F7AA0 /* NHNCloudPush-SampleDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NHNCloudPush-SampleDebug.entitlements"; sourceTree = "<group>"; };
 		2D4B5A402925F50D004F7AA0 /* TagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
-		2D8D1117292C94FC00A05FCB /* NHNCloudCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCore.xcframework; path = ../../xcframeworks/NHNCloudCore.xcframework; sourceTree = "<group>"; };
-		2D8D1118292C94FC00A05FCB /* NHNCloudCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudCommon.xcframework; path = ../../xcframeworks/NHNCloudCommon.xcframework; sourceTree = "<group>"; };
-		2D8D1119292C94FD00A05FCB /* NHNCloudPush.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NHNCloudPush.xcframework; path = ../../xcframeworks/NHNCloudPush.xcframework; sourceTree = "<group>"; };
+		2D8D1117292C94FC00A05FCB /* NHNCloudCore.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:6D7P2939B7:NHN Cloud Corp."; lastKnownFileType = wrapper.xcframework; name = NHNCloudCore.xcframework; path = ../../xcframeworks/NHNCloudCore.xcframework; sourceTree = "<group>"; };
+		2D8D1118292C94FC00A05FCB /* NHNCloudCommon.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:6D7P2939B7:NHN Cloud Corp."; lastKnownFileType = wrapper.xcframework; name = NHNCloudCommon.xcframework; path = ../../xcframeworks/NHNCloudCommon.xcframework; sourceTree = "<group>"; };
+		2D8D1119292C94FD00A05FCB /* NHNCloudPush.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:6D7P2939B7:NHN Cloud Corp."; lastKnownFileType = wrapper.xcframework; name = NHNCloudPush.xcframework; path = ../../xcframeworks/NHNCloudPush.xcframework; sourceTree = "<group>"; };
 		2D8D1121292C951800A05FCB /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -427,7 +427,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,7 +463,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -5,9 +5,6 @@
       location = "group:NHNCloudLogger-Sample/NHNCloudLogger-Sample.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:NHNCloudLogger-Sample/../NHNCloudIAP-Sample/NHNCloudIAP-Sample.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:NHNCloudPush-Sample/NHNCloudPush-Sample.xcodeproj">
    </FileRef>
    <FileRef

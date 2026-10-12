@@ -8,16 +8,13 @@ let package = Package(
     products: [
         .library(
             name: "NHNCloudSDK",
-            targets: ["NHNCloudCommon", "NHNCloudCore", "NHNCloudLogger", "NHNCloudIAP", "NHNCloudOCR", "NHNCloudPush"]),
+            targets: ["NHNCloudCommon", "NHNCloudCore", "NHNCloudLogger", "NHNCloudOCR", "NHNCloudPush"]),
         .library(
             name: "NHNCloudCore",
             targets: ["NHNCloudCommon", "NHNCloudCore"]),
         .library(
             name: "NHNCloudLogger",
             targets: ["NHNCloudCommon", "NHNCloudCore", "NHNCloudLogger", "CrashReporter"]),
-        .library(
-            name: "NHNCloudIAP",
-            targets: ["NHNCloudCommon", "NHNCloudCore", "NHNCloudIAP"]),
         .library(
             name: "NHNCloudOCR",
             targets: ["NHNCloudCommon", "NHNCloudCore", "NHNCloudOCR"]),
@@ -31,7 +28,6 @@ let package = Package(
         .binaryTarget(name: "NHNCloudCommon", path: "xcframeworks/NHNCloudCommon.xcframework"),
         .binaryTarget(name: "NHNCloudCore", path: "xcframeworks/NHNCloudCore.xcframework"),
         .binaryTarget(name: "NHNCloudLogger", path: "xcframeworks/NHNCloudLogger.xcframework"),
-        .binaryTarget(name: "NHNCloudIAP", path: "xcframeworks/NHNCloudIAP.xcframework"),
         .binaryTarget(name: "NHNCloudOCR", path: "xcframeworks/NHNCloudOCR.xcframework"),
         .binaryTarget(name: "NHNCloudPush", path: "xcframeworks/NHNCloudPush.xcframework"),
         .binaryTarget(name: "CrashReporter", path: "External/CrashReporter/CrashReporter.xcframework")
